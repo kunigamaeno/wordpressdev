@@ -1,0 +1,135 @@
+# Translation of Themes - JShop in Japanese
+# This file is distributed under the same license as the Themes - JShop package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2016-11-27 10:12:50+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: GlotPress/2.3.0-alpha\n"
+"Language: ja_JP\n"
+"Project-Id-Version: Themes - JShop\n"
+
+#. Description of the plugin/theme
+msgid "JShop – is a great solution for small site."
+msgstr "JShop - 小規模サイトに最適なソリューション。"
+
+#. Theme Name of the plugin/theme
+msgid "JShop"
+msgstr "JShop"
+
+#: single.php:14
+msgctxt "Next post link"
+msgid "&rarr;"
+msgstr "&rarr;"
+
+#: single.php:13
+msgctxt "Previous post link"
+msgid "&larr;"
+msgstr "&larr;"
+
+#: single.php:12
+msgid "Categories "
+msgstr "カテゴリー"
+
+#: single.php:10
+msgid "Pages"
+msgstr "固定ページ"
+
+#: searchform.php:2
+msgid "Search"
+msgstr "検索"
+
+#: search.php:19
+msgid "Not found."
+msgstr "見つかりません。"
+
+#: index.php:24
+msgid "Older &raquo;"
+msgstr "古い &raquo;"
+
+#: index.php:23
+msgid "&laquo; Newer"
+msgstr "&laquo; 最新"
+
+#: index.php:13
+msgid "Categories:"
+msgstr "カテゴリー:"
+
+#: index.php:11
+msgid "Read more..."
+msgstr "続きを読む..."
+
+#: header.php:51
+msgid "Cart:"
+msgstr "カート:"
+
+#: functions.php:94 header.php:51
+msgid "%d item"
+msgid_plural "%d items"
+msgstr[0] "%d 商品"
+
+#: functions.php:94 header.php:51
+msgid "View your shopping cart"
+msgstr "ショッピングカートを見る"
+
+#: functions.php:77
+msgid "Page %s"
+msgstr "ページ %s"
+
+#: functions.php:51
+msgid "sidebar-footer5"
+msgstr "サイドバー・フッター5"
+
+#: functions.php:48
+msgid "sidebar-footer4"
+msgstr "サイドバー・フッター4"
+
+#: functions.php:45
+msgid "sidebar-footer3"
+msgstr "サイドバー・フッター3"
+
+#: functions.php:42
+msgid "sidebar-footer2"
+msgstr "サイドバー・フッター2"
+
+#: functions.php:39
+msgid "sidebar-footer1"
+msgstr "サイドバー・フッター1"
+
+#: functions.php:35
+msgid "sidebar-head"
+msgstr "サイドバー上部"
+
+#: functions.php:31
+msgid "sidebar-left"
+msgstr "サイドバー左"
+
+#: functions.php:25
+msgid "Header Menu"
+msgstr "ヘッダーメニュー"
+
+#: footer.php:36
+msgid "Theme"
+msgstr "テーマ名"
+
+#: footer.php:36
+msgid "Powered by"
+msgstr "Powered by "
+
+#: 404.php:4
+msgid "Error 404 - Page Not Found"
+msgstr "Error 404 - ページが見つかりません"
+
+#. Author URI of the plugin/theme
+msgid "http://justpx.com/"
+msgstr "http://justpx.com/"
+
+#. Author of the plugin/theme
+msgid "JustPX"
+msgstr "JustPX"
+
+#. Theme URI of the plugin/theme
+msgid "http://justpx.com/product/jshop-free/"
+msgstr "http://justpx.com/product/jshop-free/"

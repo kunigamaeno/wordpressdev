@@ -1,0 +1,139 @@
+
+/* header.php */
+
+/* /header.php */
+
+function headerphp()
+{
+<section class="saftysection">
+<div id="t1" class="container-fluid">
+  	<div class="row">
+		<div class="main">
+			<div class="hdr1">
+
+			<div class="head">
+				<?php if ( function_exists( 'jetpack_the_site_logo' ) ) jetpack_the_site_logo(); ?>
+				<h5 class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>"><?php bloginfo( 'name' ); ?></a></h5>
+				<h6 class="site-description"><?php bloginfo( 'description' ); ?></h6>
+			</div>
+			<div class="sidebar-head3 span2">
+				<!-- -->
+				<?php dynamic_sidebar( 'sidebar-head' ); ?>
+				
+			</div>
+			<div class="sidebar-head4 span2">
+				<!-- -->
+			</div>
+			</div>
+		</div>
+	</div>
+	<div class="row">
+		<div class="main3">
+		</div>
+		<div class="main4">
+				<?php dynamic_sidebar( 'sidebar-head2' ); ?>
+			<!--	<ul><li><?php /* wp_nav_menu( array( 'theme_location' => 'header-menu' ) );*/ ?> </li></ul>
+				<a id="live-menu" class="responsive-menu" href="#">Menu</a> -->
+		</div>
+	</div>
+	</div>
+</div>
+</section>
+}
+
+/* index.php */
+function indexphp()
+{
+<section class="saftysection">
+<div class="main">
+	<div class="content-main">
+	
+<section class="saftysection">
+<div id="p1" class="container-fluid">
+		<div class="content">
+			<?php if(have_posts()) : ?>
+			<?php while(have_posts()) : the_post(); ?>
+			<div class="post-main"> 
+				<h1><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a> <span><?php the_date(); ?></span></h1>
+				<div class="post">
+					<?php the_content(); ?>
+					<?php wp_link_pages( array(
+					'before' => '<div class="page-links">' . __( 'Pages', 'jshop' ),
+					'after'  => '</div>',) );	?>
+						<div class="categories"><div class="tagi"><?php the_tags(); ?></div>	<?php _e( 'Categories ', 'jshop' ); ?> <?php the_category(' '); ?></div>
+						<span class="nav-previous"><?php previous_post_link( '%link', '<span class="meta-nav">' . _x( '&larr;', 'Previous post link', 'jshop' ) . '</span> %title' ); ?></span>
+						<span class="nav-next"><?php next_post_link( '%link', '%title <span class="meta-nav">' . _x( '&rarr;', 'Next post link', 'jshop' ) . '</span>' ); ?></span>
+					<?php comments_template(); ?>
+				</div>
+			</div>
+			<?php endwhile; ?>
+			<?php endif; ?>
+		</div>
+		<div class="row">
+			<div class="sidebar-right1 span2">
+			<?php dynamic_sidebar( 'sidebar-left' ); ?>
+			</div>
+		</div>
+</div>
+</section>
+</div>
+</div>
+		
+}
+
+/* /index.php */
+
+
+/* footer.php */
+function footerphp()
+{
+<div class="afooter">
+	<div class="container">
+		<div class="sidebar-box">
+		        <!--widgets-->
+	        <div class="row">
+	            <div class="sidebar-footer1 span2">
+	                 <?php dynamic_sidebar( 'sidebar-footer1' ); ?>
+	            </div>
+
+	            <div class="sidebar-footer2 span2">
+	                <?php dynamic_sidebar( 'sidebar-footer2' ); ?>
+	            </div>
+
+	            <div class="sidebar-footer3 span2">
+	                <?php dynamic_sidebar( 'sidebar-footer3' ); ?>
+	            </div>
+	            <div class="sidebar-footer4 span2">
+	                <?php dynamic_sidebar( 'sidebar-footer4' ); ?>
+	            </div>
+	        </div>
+		</div>
+	</div>
+</div>
+
+<div class="afooter2">
+	<div class="footer">
+
+
+		<div class="row">
+			<div class="sidebar-footer5 span2">
+				<?php dynamic_sidebar( 'sidebar-footer5' ); ?>
+			</div>
+		</div>
+
+		<div class="mlogo">
+			<div class="sidebar-user2 span2"><?php _e( 'Powered by', 'jshop' ); ?> <a href="http://wordpress.org" target="_blank">WordPress</a>. <?php _e( 'Theme', 'jshop' ); ?> <a href="http://justpx.com/" target="_blank">JShop</a></div>
+
+
+		</div>		
+	</div>
+</div>
+	<?php wp_footer(); ?>
+</section>
+}
+/* /footer.php*/
+
+
+/**/
+
+/**/

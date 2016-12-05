@@ -1,0 +1,83 @@
+/*
+Theme Name: Klasik
+Description: Adds support for languages written in a Right To Left (RTL) direction.
+It's easy, just a matter of overwriting all the horizontal positioning attributes
+of your CSS stylesheet in a separate stylesheet file named rtl.css.
+
+See http://codex.wordpress.org/Right_to_Left_Language_Support
+*/
+
+
+body {
+	direction: rtl;
+	unicode-bidi: embed;
+}
+caption,
+th,
+td {
+	text-align: right;
+}
+
+/* Klasik Layout */
+#logoimg a{direction: ltr;}
+#logo {float: right;}
+
+#slideritems, .flexslider-carousel{
+  direction:ltr;
+  /*...*/
+}
+
+.fa-icon-title .fa { margin: 0 0 0 10px;}
+
+#afterheader #breadcrumbs.is-Right {
+    left: 0;
+    right: auto;
+    text-align: left;
+}
+
+#entry-author-info #author-avatar {top:60px; left:auto; right:20px;}
+#entry-author-info #author-description { margin: 0px 98px 0px 0px; vertical-align:top;}
+
+.commentlist .comment-author{ float:right;}
+.commentlist .comment-body{margin-right:105px; margin-left:0px;}
+.commentlist li.comment ul.children{margin:0 11% 0 0px;}
+
+blockquote {
+	border-left:0;
+    border-right: 8px solid #6c6c6c;
+}
+
+.entry-quote blockquote { padding: 0 20px  0 0 ;}
+
+.klasik-features .image{float:right; margin:0px 0px 0px 15px;}
+
+.klasik-magazinepost-widget.headline-col-style .tpl1 .recent-thumb .image{ float:right; margin:0 0 0 20px;}
+.klasik-magazinepost-widget .tpl2 .recent-thumb .image{ margin:0 0 0 18px; float:right}
+
+.klasik-action-widget .action-text {float: right;}
+.klasik-action-widget .action-button {float: left;}
+
+.klasik-testimonial-widget .testi-quote-wrap .testi-quote{
+	border-left:0;
+    border-right: 8px solid #6c6c6c;
+}
+.klasik-testimonial-widget .testi-quote{padding: 0 20px 0px 0;}
+
+#sidebar .widget-title{	text-align:right;}
+#footersidebar .widget-title {text-align:right;}
+
+ul.list li .fa {
+    margin:0 0 0 12px !important;
+}
+
+.flexslider-carousel ul.flex-direction-nav a, .flex-control-nav li a{ text-indent:9999999px}
+
+ul.page-numbers li{ float:right}
+a.pp_arrow_previous, a.pp_arrow_next, a.pp_next, a.pp_previous, .pp_nav .pp_play, .pp_nav .pp_pause, a.pp_close{ text-indent:9999999px}
+
+
+/* Woocommerce */
+body.klasikt div.product .woocommerce-tabs ul.tabs, body.klasikt #content div.product .woocommerce-tabs ul.tabs{padding:0px 1em 0px 0px;}
+body.klasikt ul.products li.product{float: right; margin: 0 0 2.992em 3.8%;}
+body.klasikt ul.products li.last{margin-left:0px;}
+form.checkout .col2-set{overflow:hidden;}

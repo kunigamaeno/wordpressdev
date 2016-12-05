@@ -1,0 +1,25 @@
+    $r = new WP_Query($a);
+        $liclass = 'class="col-md-4 col-sm-6 col-lg-3"';
+		if ($r->have_posts()){
+ 		   echo '<ul>';
+    		while ( $r->have_posts() ){  
+    		    
+    		    $r->the_post();
+    		    $href = the_permalink();
+    		    $title= get_the_title() ? the_title() : the_ID();
+    		    
+    			echo '<li '.$liclass.' >' . '<a href="'. $href .'">'. $title .'</a>' .'</li>';
+    		}
+		   echo '</ul>';
+		// Reset the global $the_post as this query will have stomped on it
+		wp_reset_postdata();
+        }    
+
+
+    		while ( $r->have_posts() ){  
+    		    $r->the_post();  
+    		    $href = "";//the_permalink();
+    		    $title= get_the_title() ? the_title() : the_ID();
+    		    echo sprintf('<li %s ><a href="%s">%s</a></li>',$liclass,$href,$title);
+    			//echo '<li '.$liclass.' >' . '<a href="'. $href .'">'. $title .'</a>' .'</li>';
+    		}

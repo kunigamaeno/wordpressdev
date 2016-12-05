@@ -1,0 +1,7 @@
+
+ prefix cht-
+ 
+ pak >
+   lib >[libname] > js css png lib-left
+   cht > js css png mysetting
+         where.php is libnames //search this

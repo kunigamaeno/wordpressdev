@@ -1,0 +1,36 @@
+ChangeLog
+=========
+
+Version 0.94
+
+	i) Removed HTML5 Comment List Support
+	ii) Other Minor Fixes.
+
+Version 0.93
+
+	i) used new core function for pagination
+	ii) escaping issues
+	iii) prefixing issues
+	iv) other minor fixes.
+
+Version 0.92 (pre release)
+
+	i) Custom Logo Fixed.
+	ii) I18n for Date in Recent Posts Widget
+	iii) js fixes.
+	iv) Other Minor Fixes.
+	v) Corrected Skins
+
+Version 0.91 (pre release)
+
+	i) Customizer Bug FIxes.
+	ii) Added Slider via plugin.
+	iii) Translation Fix.
+	iv) Core Custom logo
+	v) New Theme Tags added.
+	vi) Other minor fixes.
+	
+	
+Version 0.9
+
+	i) Initial Release.

@@ -1,0 +1,286 @@
+/*
+Theme Name: codesnippets
+Theme URI: http://xxxxx/
+Author: Kuniga Maeno
+Author URI: http://xxxxxx.com/
+Description: codesnippets simple snippet viewer.
+Version: 0.1
+License: GNU General Public License, Original Bryan Hadaway build 'generic' theme.
+License URI: https://www.gnu.org/licenses/gpl.html
+Tags: tinu, white, light, one-column, fluid-layout, responsive-layout, custom-menu, featured-images, microformats, sticky-post, threaded-comments, translation-ready
+Text Domain: codesnippets
+
+Generic WordPress Theme © 2015-2016 GenericTools
+Generic is distributed under the terms of the GNU GPL
+*/
+
+/* important */
+/* <style type="text/css" media="print"> */
+@media print{
+    #wpadminbar { display:none; }
+}
+/*</style>*/
+
+
+/* style */
+/* <style type="text/css" media="screen"> */
+@media screen and ( max-width: 782px ) {
+		html { margin-top: 46px !important; }
+		* html body { margin-top: 46px !important; }
+	}
+	html { margin-top: 32px !important; }
+	* html body { margin-top: 32px !important; }
+	
+/* </style> */
+
+/* colors */
+/* @cbg */
+/* @clink */
+/* @chover */
+/* @cfont */
+/* @csub */
+
+ /* <style> */
+ /* split panel*/
+  .splitpanel{
+    /* height: 250px;*/
+    border: 1px solid #eecccc;
+    border-radius: 4px;
+  }
+
+  .splitpanel{
+    /*height: 400px; */
+    /* height:100%; */
+    /* needed number*/
+    height:600px;
+  }
+
+  .split p {
+    /* padding: 20px;*/
+  }
+
+  .split {
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+
+    overflow-y: auto;
+    overflow-x: hidden;
+  }
+  .gutter {
+    background-color: #eee;
+
+    background-repeat: no-repeat;
+    background-position: 50%;
+  }
+body {
+    background: #ab5050;
+    overflow:hidden;
+}
+#rightfix {
+	background-color: rgba(0, 0, 0, 0.33);
+	height:100%;
+	right:0;
+	margin:0;
+	padding:0;
+	position:fixed;
+	_position:absolute;
+	top:0;
+	width:40px;
+}
+
+body{
+  padding-bottom: 48px; /* bottomfix padding 24+24*/
+}
+#bottomfix{
+	background-color: rgba(0, 0, 0, 0.0);
+	bottom: 0;
+	height: 24px; /* フッターの高さ */
+	position: fixed;
+	width: 100%;
+    margin-bottom: 12px;
+  text-align: center;
+}
+#sigspan:after{
+  content:"cheatsheet#cc2.1jp@kuniga.maeno";
+  color:#f6f6f6;
+  opacity: 0.01;
+}
+
+.mainbottom{
+  margin-top:32px; /*body top margin same*/
+  text-align:center;
+}
+
+a,button,.btn,span#sigspan::after{
+    /*  transition: all 0.02s;*/ /* effect quiq*/
+}
+span#sigspan:hover::after {
+    opacity: 0.6;
+}
+
+div#nine, div#eight,.gutter.gutter-vertical {
+    background-color: #eee;
+}
+.gutter {
+    /* background-color: #eee; */
+    border-top: 1px solid #ab5050;
+    background-repeat: no-repeat;
+    background-position: 50%;
+}  
+
+  .gutter.gutter-horizontal {
+    /* background-image: url('grips/vertical.png'); */
+    cursor: ew-resize;
+  }
+
+  .gutter.gutter-vertical {
+    /* background-image: url('grips/horizontal.png'); */
+    cursor: ns-resize;
+  }
+
+  .split.split-horizontal, .gutter.gutter-horizontal {
+    height: 100%;
+    float: left;
+  }
+ /* </style> */
+  
+ /* <style> */
+ /* nanobar */
+.nanobar {
+  width: 100%;
+  height: 2px;
+  z-index: 9999;
+  top:0
+}
+.bar {
+  width: 0;
+  height: 100%;
+  transition: height .3s;
+  background:#ab5050;
+}    
+/* </style>*/
+  
+/*<style>*/
+/* pre */
+.footer, pre, pre code {
+    background-color: #f8f8f8;
+    /*color: #e1e1e8;*/
+}
+/*</style>*/
+
+/*<style>*/
+/* li */
+li.catelist{
+list-style:none;
+padding-left: 0.5em;
+}
+li.catelist:hover {
+    border-left: 1px solid #ff0000;
+    /* color: aqua; */
+}
+li.catelist{
+    border-left: 1px solid rgba(255, 255, 255, 0);
+}
+/*</style>*/
+
+
+/* clipboard*/
+
+pre {
+    position: relative;
+}
+
+span.btn-fit-r {
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 10;
+    display: block;
+    /*padding: 5px 8px;*/
+    font-size: 12px;
+    color: #767676;
+    cursor: pointer;
+    background-color: #fff;
+    /*border: 0px solid #e1e1e8;*/
+    /*border-radius: 0 4px 0 4px;*/
+    padding-top: 0px;
+    padding-right: 2em;
+    padding-left: 2em;
+    opacity:0.2;
+    padding-bottom: 0px;
+    height: initial;    
+}
+span.btn-fit-r:hover, span.btn-fit-r:focus,span.btn-fit-r:active{
+    opacity:1.0;
+}
+
+/**/
+
+/* widget bug */
+/**/
+li.widget.widget_text {
+    list-style: none;
+}
+#bottomfix li {
+    list-style: none;
+}
+/**/
+
+
+
+/* style.css customize */
+/*<style>*/
+
+
+h1,h2,h3,h4,h5,h6,a{
+word-break: break-all;
+}
+
+h1,h2{
+    font-size:1.25em;
+}
+pre {
+    padding-left: 10em;
+}
+pre,pre code {
+    font-size: 0.95em;
+    font-family: monospace;
+}
+
+.widget_recent_entries h3.widget-title,
+ .author-bio h3,
+.author-bio .author-name{
+    display: none;
+}
+
+a:hover {
+    color: #c1443c;
+}
+a {
+    color: #666666;
+}
+
+article p, article header {
+    padding-left: 1em;
+}
+article .entry-meta {
+    margin-right: 0.5em;
+    text-align: right;
+}
+
+h1, h2 {
+    margin-bottom: 0em;
+}
+
+p {
+    margin-bottom: 0em;
+    margin-top: 0em;
+}
+
+pre {
+    margin-bottom: 0em;
+    margin-top: 0em;
+}
+
+/**/

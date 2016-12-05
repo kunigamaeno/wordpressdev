@@ -1,0 +1,18 @@
+machine:
+  node:
+    version: v5.10.1
+
+dependencies:
+  cache_directories:
+    - "~/nvm/v0.10.26/lib/node_modules"
+    - "~/nvm/v0.10.26/lib/bin"
+    - "~/.npm"
+
+  post:
+    - npm install -g bower protractor@3.3.0
+    - bower install
+
+test:
+  override:
+    - wget "http://packager.eager.io/wordpress-base/${CIRCLE_SHA1}/plugin.zip?appId=drift" -O plugin.zip
+    - PLUGIN_PATH=$( readlink -f plugin.zip ) protractor bower_components/CMSTests/tests/protractor.conf.js

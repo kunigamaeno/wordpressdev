@@ -1,0 +1,33 @@
+
+
+//世界情勢自動掌握機関
+//SJJSK
+//head name haaku
+
+//haaku-setting.php
+//$GLOBALS['haaku-setting']=[
+//'folder'=>data,
+//'cronspan'=>data,
+// ]
+//
+
+
+//javascriptで定期実行。
+//haaku-cron.js
+
+//haaku-updatechecker.php
+//対称urlがアップデートされているかチェックしてファイルに書き込む
+//haaku-ngurl.txt
+//haaku-upurl.txt
+//# is line comment
+//url,updatetime
+//url,updatetime
+
+//haaku-chromehistoryreader.bat
+//端末から日に一度だけ実行
+//http://www.sqlite.org/download.html
+//sqlite3を端末に入れる
+
+
+//haaku-wpwriter.php
+//ドメイン関数名で個別処理できる

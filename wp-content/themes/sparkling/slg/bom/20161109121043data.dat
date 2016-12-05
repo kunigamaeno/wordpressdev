@@ -1,0 +1,13 @@
+@echo off
+#knock bat
+
+echo cd /d %~dp0
+cd /d %~dp0
+
+Ping -n 3 slg-kunigamaeno.c9users.io
+
+\"C:\\Windows\\SysWow64\\cscript.exe\" knock.vbs
+
+#cat result.csv
+#pause
+Ping -n 200 dummyhostwait

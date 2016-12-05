@@ -1,0 +1,18 @@
+
+{
+  "name": "WordpressBasePlugin",
+  "homepage": "https://github.com/EagerIO/WordpressBasePlugin",
+  "description": "Eager Wordpress Plugin",
+  "main": "",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "CMSTests": "git@github.com:EagerIO/CMSTests.git"
+  }
+}

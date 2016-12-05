@@ -1,0 +1,36 @@
+/*  
+ * Theme Name: TinyDocuments
+ * Theme URI: http://xxxxx/
+ * Version: 0.1
+ * Author: Kuniga Maeno
+ * Author URI: http://xxxxxxx/
+ * Description: TinyDocuments – is small documents write solution
+ * TinyDocuments WordPress Theme, Copyright 2016 Kuniga Maeno
+ * this is distributed under the terms of the GNU GPL
+ * Tags: white, light, small, grid,
+ * Text Domain: TinyDocuments
+ * License: GNU General Public License v3.0
+ * License URI: http://www.gnu.org/copyleft/gpl.html
+ * Original Author: JustPX, http://justpx.com/
+*/
+
+@charset "utf-8";
+
+
+#t1111 {
+	min-height: 100px;  /* ヘッダーの高さ */
+	max-height: 300px;
+	left: 0;
+	margin: 0;
+	position: fixed;
+	_position: absolute;
+	top: 0;
+	width: 100%;
+	z-index: 999;
+}
+
+#p1111 {
+	margin: 310px 0 0 0; /* ヘッダーの高さ分をマージンで空けておく */
+	_overflow: auto;
+	padding: 0;
+}

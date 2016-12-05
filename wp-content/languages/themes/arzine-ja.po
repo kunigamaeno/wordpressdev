@@ -1,0 +1,303 @@
+# Translation of Themes - arzine in Japanese
+# This file is distributed under the same license as the Themes - arzine package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2016-11-12 06:31:27+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: GlotPress/2.3.0-alpha\n"
+"Language: ja_JP\n"
+"Project-Id-Version: Themes - arzine\n"
+
+#. Description of the plugin/theme
+msgid "AR Zine is a theme designed like magazine."
+msgstr "AR Zineは雑誌風にデザインされたテーマです。"
+
+#. Theme Name of the plugin/theme
+msgid "arzine"
+msgstr "arzine"
+
+#. Template Name of the plugin/theme
+msgid "Full-width Page Template, No Sidebar"
+msgstr "全幅ページテンプレート、サイドバーなし"
+
+#. Template Name of the plugin/theme
+msgid "Front Page Template"
+msgstr "フロントページテンプレート"
+
+#: tag.php:6
+msgid "Tag Archives: %s"
+msgstr "「%s」タグアーカイブ"
+
+#: single.php:10
+msgctxt "Next post link"
+msgid "&rarr;"
+msgstr "&rarr;"
+
+#: single.php:9
+msgctxt "Previous post link"
+msgid "&larr;"
+msgstr "&larr;"
+
+#: search.php:19
+msgid "Sorry, content not found."
+msgstr "申し訳ございません、コンテンツが見つかりません。"
+
+#: search.php:6
+msgid "Search Results for: %s"
+msgstr "検索結果: %s"
+
+#: index.php:16
+msgid "Ready to publish your first post? <a href=\"%s\">Get started here</a>."
+msgstr "最初の投稿をする準備ができましたか ? <a href=\"%s\">ここからスタート</a>してください。"
+
+#: index.php:13
+msgid "No posts to display"
+msgstr "表示する投稿がありません"
+
+#: image.php:24
+msgid "Next &rarr;"
+msgstr "次へ &rarr;"
+
+#: image.php:23
+msgid "&larr; Previous"
+msgstr "&larr; 前へ"
+
+#: header.php:26
+msgid "Skip to content"
+msgstr "コンテンツへスキップ"
+
+#: header.php:25
+msgid "Menu"
+msgstr "メニュー"
+
+#: functions.php:177
+msgid "This entry was posted on %3$s<span class=\"by-author\"> by %4$s</span>."
+msgstr "この投稿は%3$s<span class=\"by-author\">に%4$sが公開しました</span>。"
+
+#: functions.php:175
+msgid "This entry was posted in %1$s on %3$s<span class=\"by-author\"> by %4$s</span>."
+msgstr "カテゴリー: %1$s | 投稿日: %3$s | <span class=\"by-author\">投稿者: %4$s</span>"
+
+#: functions.php:173
+msgid "This entry was posted in %1$s and tagged %2$s on %3$s<span class=\"by-author\"> by %4$s</span>."
+msgstr "カテゴリー: %1$s | タグ: %2$s | 投稿日: %3$s | <span class=\"by-author\">投稿者: %4$s</span>"
+
+#: functions.php:169
+msgid "View all posts by %s"
+msgstr "%s の投稿をすべて表示"
+
+#: functions.php:159 functions.php:160
+msgid ", "
+msgstr ", "
+
+#: functions.php:149
+msgid "Reply <span>&darr;</span>"
+msgstr "返信 <span>&darr;</span>"
+
+#: functions.php:142
+msgid "Your comment is awaiting moderation."
+msgstr "あなたのコメントは承認待ちです。"
+
+#: functions.php:138
+msgid "%1$s at %2$s"
+msgstr "%1$s %2$s"
+
+#: functions.php:133
+msgid "Post author"
+msgstr "投稿作成者"
+
+#: functions.php:123
+msgid "(Edit)"
+msgstr "(編集)"
+
+#: functions.php:123
+msgid "Pingback:"
+msgstr "ピンバック:"
+
+#: functions.php:109
+msgid "Newer posts <span class=\"meta-nav\">&rarr;</span>"
+msgstr "新しい投稿 <span class=\"meta-nav\">&rarr;</span>"
+
+#: functions.php:108
+msgid "<span class=\"meta-nav\">&larr;</span> Older posts"
+msgstr "<span class=\"meta-nav\">&larr;</span> 過去の投稿"
+
+#: functions.php:106 single.php:7
+msgid "Post navigation"
+msgstr "投稿ナビゲーション"
+
+#: functions.php:89
+msgid "Second Front Page Widget Area"
+msgstr "フロントページウィジェットエリア 2"
+
+#: functions.php:80 functions.php:91
+msgid "Appears when using the optional Front Page template with a page set as Static Front Page"
+msgstr "オプションフロントページテンプレートを固定フロントとして使う際に表示されます。"
+
+#: functions.php:78
+msgid "First Front Page Widget Area"
+msgstr "フロントページウィジェットエリア 1"
+
+#: functions.php:69
+msgid "Appears on posts and pages except the optional Front Page template, which has its own widgets"
+msgstr "独自ウィジェットを持つオプションフロントページテンプレートの投稿と固定ページに表示されます。"
+
+#: functions.php:53
+msgid "Page %s"
+msgstr "ページ %s"
+
+#: functions.php:26
+msgctxt "Open Sans font: add new subset (greek, cyrillic, vietnamese)"
+msgid "no-subset"
+msgstr "no-subset"
+
+#: functions.php:24
+msgctxt "Open Sans font: on or off"
+msgid "on"
+msgstr "on"
+
+#: footer.php:3
+msgid "%s"
+msgstr "%s"
+
+#: footer.php:3
+msgid "Semantic Personal Publishing Platform"
+msgstr "セマンティックなパブリッシングツール"
+
+#: footer.php:3
+msgid "http://wordpress.org/"
+msgstr "http://ja.wordpress.org/"
+
+#: footer.php:3
+msgid "is proudly powered by "
+msgstr "is proudly powered by "
+
+#: content.php:36
+msgid "View all posts by %s <span class=\"meta-nav\">&rarr;</span>"
+msgstr "%s の投稿をすべて表示 <span class=\"meta-nav\">&rarr;</span>"
+
+#: content.php:11
+msgid "% Replies"
+msgstr "%件の返信"
+
+#: content.php:11
+msgid "1 Reply"
+msgstr "1件のフィードバック "
+
+#: content.php:11
+msgid "Leave a reply"
+msgstr "コメントを残す"
+
+#: content-page.php:7 content.php:22 image.php:57
+msgid "Pages:"
+msgstr "ページ:"
+
+#: content-none.php:6 index.php:23
+msgid "Apologies, but no results were found. Perhaps searching will help find a related post."
+msgstr "一致する結果がありませんでした。検索してみると、関連投稿が見つかるかもしれません。"
+
+#: content-none.php:3 index.php:20 search.php:16
+msgid "Nothing Found"
+msgstr "見つかりません"
+
+#: content-link.php:2
+msgid "Link"
+msgstr "リンク"
+
+#: content-aside.php:10 content-image.php:9 content-link.php:8
+#: content-page.php:10 content-quote.php:7 content-status.php:15 content.php:27
+#: functions.php:146 image.php:20
+msgid "Edit"
+msgstr "編集"
+
+#: content-aside.php:5 content-image.php:3 content-link.php:4
+#: content-quote.php:3 content-status.php:11 content.php:21
+msgid "Continue reading <span class=\"meta-nav\">&rarr;</span>"
+msgstr "続きを読む <span class=\"meta-nav\">&rarr;</span>"
+
+#: content-aside.php:3 content-aside.php:9 content-image.php:6
+#: content-link.php:7 content-quote.php:6 content-status.php:5 content.php:7
+msgid "Permalink to %s"
+msgstr "%s へのパーマリンク"
+
+#: comments.php:18
+msgid "Comments are closed."
+msgstr "コメントは停止中です。"
+
+#: comments.php:14
+msgid "Newer Comments &rarr;"
+msgstr "新しいコメント &rarr;"
+
+#: comments.php:13
+msgid "&larr; Older Comments"
+msgstr "&larr; 過去のコメント"
+
+#: comments.php:12
+msgid "Comment navigation"
+msgstr "コメントナビゲーション"
+
+#: comments.php:6
+msgid "One thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] "「%2$s」への%1$s件のフィードバック"
+
+#: category.php:6
+msgid "Category Archives: %s"
+msgstr "「%s」カテゴリーアーカイブ"
+
+#: author.php:17 content.php:34
+msgid "About %s"
+msgstr "%s について"
+
+#: author.php:7
+msgid "Author Archives: %s"
+msgstr "投稿者「%s」のアーカイブ"
+
+#: archive.php:14
+msgid "Archives"
+msgstr "アーカイブ"
+
+#: archive.php:12
+msgctxt "yearly archives date format"
+msgid "Y"
+msgstr "Y年"
+
+#: archive.php:12
+msgid "Yearly Archives: %s"
+msgstr "年別アーカイブ: %s"
+
+#: archive.php:10
+msgctxt "monthly archives date format"
+msgid "F Y"
+msgstr "Y年n月"
+
+#: archive.php:10
+msgid "Monthly Archives: %s"
+msgstr "月別アーカイブ: %s"
+
+#: archive.php:8
+msgid "Daily Archives: %s"
+msgstr "日別アーカイブ: %s"
+
+#: 404.php:9
+msgid "The page is not found."
+msgstr "ページが見つかりません。"
+
+#: 404.php:6
+msgid "Error: page not found"
+msgstr "エラー: ページが見つかりません"
+
+#. Author URI of the plugin/theme
+msgid "http://albertoramacciotti.com/"
+msgstr "http://albertoramacciotti.com/"
+
+#. Author of the plugin/theme
+msgid "Alberto Ramacciotti"
+msgstr "Alberto Ramacciotti"
+
+#. Theme URI of the plugin/theme
+msgid "http://ramacciotti.altervista.org/archivio/articolo/arzine-theme"
+msgstr "http://ramacciotti.altervista.org/archivio/articolo/arzine-theme"

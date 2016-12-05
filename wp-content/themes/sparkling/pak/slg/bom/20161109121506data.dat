@@ -1,0 +1,125 @@
+
+Dim strdata
+Dim fname
+fname=\"result.csv\"
+
+
+\'Dim objFSO      \' FileSystemObject
+\'Dim objFile     \' ファイル読み込み用
+
+\'Set objFSO = WScript.CreateObject(\"Scripting.FileSystemObject\")
+\'    Set objFile = objFSO.OpenTextFile(fname)
+\'    strdata = objFile.ReadAll
+\'    objFile.Close
+
+\'Set objFile = Nothing
+\'Set objFSO = Nothing
+
+Dim sr      
+\'Dim strData 
+
+Set sr = WScript.CreateObject(\"ADODB.Stream\")
+
+
+sr.Mode = 3 \'3=need be 3 \'3 \'読み取り/書き込みモード
+sr.Type = 2 \'1=binary \'2 \'テキストデータ
+sr.Charset = \"_autodetect\" \'文字コードを指定
+
+sr.Open                 \'Streamオブジェクトを開く
+sr.LoadFromFile (fname) \'ファイルの内容を読み込む
+sr.Position = 0         \'ポインタを先頭へ
+strData = sr.ReadText() \'()= readall データ読み込み
+sr.Close                \'Streamを閉じる
+Set sr = Nothing \'オブジェクトの解放
+
+WScript.Echo \"ok fileread\"
+
+Dim objXML    
+Dim strXMLDoc 
+Dim intRet    
+Dim strURL    
+Dim strKey    
+Dim spestrdata
+
+\'spestrdata =htmlspecialchars(strdata,\"\")
+spestrdata =UrlEncodeUtf8(strdata)
+
+strURL = \"https://slg-kunigamaeno.c9users.io/?page_id=18&\" \'\"https://slg-kunigamaeno.c9users.io/\"
+strKey = \"historydata=\"&spestrdata&\"&id=123&pass=abc\"
+
+Set objXML = WScript.CreateObject(\"MSXML2.ServerXMLHTTP\")
+objXML.open \"POST\", strURL, False
+objXML.setRequestHeader \"Content-Type\", \" application/x-www-form-urlencoded\"
+objXML.setRequestHeader \"Content-Length\", \"length\"
+
+WScript.Echo \"ok postsetting\"
+
+objXML.send strKey
+strXMLDoc = objXML.responseText
+intRet = objXML.status
+Set objXML = Nothing
+
+\'WScript.Echo strKey
+WScript.Echo \"length= \"&Len(strKey)
+WScript.Echo \"URL= \"&strURL
+WScript.Echo \"status= \"&intRet
+
+WScript.Echo Chr(7)
+WScript.Echo Chr(7)
+WScript.Echo Chr(7)
+WScript.Echo Chr(7)
+
+
+Function UrlEncodeUtf8(ByRef strSource ) 
+Dim objSC 
+Set objSC = CreateObject(\"ScriptControl\")
+objSC.Language = \"Jscript\"
+UrlEncodeUtf8 = objSC.CodeObject.encodeURIComponent(strSource)
+Set objSC = Nothing
+End Function
+
+Function htmlspecialchars(Byref string, Byref quote_style)
+  Dim tmp
+  tmp = string
+  tmp = Replace(tmp, \"&\", \"&amp;\")
+  tmp = Replace(tmp, \"<\", \"&lt;\")
+  tmp = Replace(tmp, \">\", \"&gt;\")
+  
+  If quote_style = \"\" OR quote_style = \"ENT_COMPAT\" Then
+    tmp = Replace(tmp, \"\"\"\", \"&quot;\")
+  ElseIf quote_style = \"ENT_QUOTES\" Then
+    tmp = Replace(tmp, \"\"\"\", \"&quot;\")
+    tmp = Replace(tmp, \"\'\", \"&#039;\")
+  ElseIf quote_style = \"ENT_NOQUOTES\" Then
+    \' NOP
+  End If
+  
+  htmlspecialchars = tmp
+End Function
+
+
+\'今回は使わない
+Function reexec32()
+\'64ビットで実行した場合は32ビットで再実行する
+With CreateObject(\"WScript.Shell\")
+  If (InStr(.ExpandEnvironmentStrings(\"%PROCESSOR_ARCHITECTURE%\"), \"64\")) And _
+     (InStr(LCase(WScript.FullName), \"system32\")) Then
+    Dim ExeName
+    Dim ExePath
+    Dim SysFolderPath
+     
+    ExeName = Mid(WScript.FullName, InStrRev(WScript.FullName, \"\\\") + 1)
+    With CreateObject(\"Scripting.FileSystemObject\")
+      SysFolderPath = .GetSpecialFolder(0).Path
+      ExePath = SysFolderPath & \"\\SysWOW64\\\" & ExeName
+      If .FileExists(ExePath) <> True Then
+        MsgBox \"SysWOW64フォルダ内に \" & ExeName & \" が見つかりませんでした。\" & vbCrLf & _
+               \"処理を中止します。\", 16
+        WScript.Quit
+      End If
+    End With
+    .Run \"\"\"\" & ExePath & \"\"\"\" & \" \" & \"\"\"\" & WScript.ScriptFullName & \"\"\"\"
+    WScript.Quit
+  End If
+End With
+End Function

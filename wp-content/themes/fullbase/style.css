@@ -1,0 +1,374 @@
+/*
+Theme Name: 	Fullbase
+Description: 	Responsive WordPress Theme based on Bootstrap and Font Awesome.
+Version:     	1.1.0
+Author:     	Andrea Marchetti
+Author URI:   http://www.marchettidesign.net/chi-sono/
+Site:         http://www.marchettidesign.net
+Text Domain: 	fullbase
+Domain Path: 	/languages
+Tags:        	grid-layout, blog, custom-menu, featured-images, right-sidebar
+License:    	GNU General Public License v3.0
+License URI:	http://www.gnu.org/licenses/gpl-3.0.html
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+
+/* Style Tree
+
+    1. Base
+    2. Layout
+      2.1 Menu
+      2.2 Home
+      2.3 Index
+      2.4 Sections
+      2.5 Sidebar
+      2.6 Footer
+    3. Modules
+      3.1 Slider
+    4. WordPress Default Element
+    5. Responsive
+
+*/
+
+body, html { margin: 0; padding: 0; height: 100%;}
+body.admin-bar .navbar-fixed-top { position: fixed; top: 32px; z-index: 1000; height: 40px; }
+
+
+/* ------------------------------------------------------------------------- *
+/* 1 Base */
+/* ------------------------------------------------------------------------- */
+
+/* Typography */
+body{font-size: 16px; font-family: 'Source Sans Pro'; -webkit-font-smoothing: antialiased; -webkit-text-size-adjust: 100%; }
+
+.gigantic 		{ letter-spacing: -2px; font-size: 110px; line-height: 1.09;}
+.huge, h1 		{ letter-spacing: -1px;font-size: 48px;line-height: 1.05;}
+.large, h2 		{ font-size: 32px; line-height: 1.0; }
+.bigger, h3 	{ font-size: 26px; line-height: 1.0; }
+.big, h4 		{ font-size: 22px; line-height: 1.0; }
+.normal, h5		{ font-size: 18px; line-height: 1.0; }
+.small, h6, small 	{ font-size: 14px; line-height: 1.0;}
+
+/* Title color */
+.gigantic, .huge, .large, .bigger, .big, h1, h2, h3, h4, h5, h6 {
+  color: #222;
+}
+
+/* Link color */
+a, .link-color { color: #26c6da; }
+a:focus, a:hover { color: #2edaf0; text-decoration: none; }
+
+/* ------------------------------------------------------------------------- *
+/* 2 Layout */
+/* ------------------------------------------------------------------------- */
+
+	/* Functional class */
+	.img-res{ margin-bottom: 20px;width:100%; height: auto;}
+  .video-res { position: relative; z-index: 0; overflow: inherit; margin-bottom: 20px; padding-top: 25px; padding-bottom: 56.25%; /* 16: 9 */height: 0;; }
+	.video-res iframe { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }
+  .margin-top { margin-top: 40px; }
+	.margin-bottom { margin-bottom: 40px; }
+	.no-margin { margin: 0; padding: 0; }
+	.text-left{text-align: left;}
+	.text-right{text-align: right;}
+	hr{clear:both; margin-top: 0; padding-top: 20px; border:none; border-bottom: 1px solid #eee}
+	.animate { 	-webkit-transition: all 0.3s ease-in-out;
+				-moz-transition: all 0.3s ease-in-out;
+				-ms-transition: all 0.3s ease-in-out;
+				-o-transition: all 0.3s ease-in-out;
+				transition: all 0.3s ease-in-out; }
+
+
+/* ------------------------------------------------------------------------- *
+/* 2.1 Menu */
+/* ------------------------------------------------------------------------- */
+
+.navbar { margin: 0; border: none; border-bottom: 1px solid #eee; border-radius: 0; background-color: #fff; background-image: none; text-transform: uppercase; }
+.navbar-header h1 { margin: 0; }
+.navbar-inverse .navbar-brand,
+.navbar-inverse .navbar-brand:hover { padding-bottom: 11px; color: #333;}
+.navbar-inverse .navbar-brand .arrow { margin-right: 5px; }
+
+	.spacer { height: 65px; }
+	.navbar { min-height: 65px; }
+	.navbar-brand,
+	.navbar-nav li a {
+	    padding-top: 0;
+	    height: 65px;
+	    line-height: 65px;
+	}
+	.navbar .logo-img img{width:auto; height: 65px;}
+
+		/* Color of menu button */
+		.navbar-nav > li > a { color: #333;}
+
+		/* Color of menu button:hover */
+		.navbar-nav > li > a:hover,
+
+		/* Color of menu active button */
+		.navbar-nav > .active > a,
+		.navbar-nav > .active > a:hover,
+		.navbar-nav > .active > a:focus,
+
+		/* Color of dropdown active button */
+		.dropdown-menu > .active > a,
+		.dropdown-menu > .active > a:hover,
+		.dropdown-menu > .active > a:focus,
+
+		/* Color of dropdown button:hover */
+		.dropdown-menu li a:hover,
+
+		/* Color of button that open the dropdown */
+		.nav .open> a,
+		.nav .open > a:hover,
+		.nav .open > a:focus { background: #f9f9f9;color:#26c6da;}
+
+		.dropdown-menu {
+			padding:0;
+		    border: none;
+		    border: none;
+		    border-radius: 0px;
+		}
+
+/* ------------------------------------------------------------------------- *
+/* 2.2 Home */
+/* ------------------------------------------------------------------------- */
+
+.home-title { position: absolute; top:-9999px; color: #fff; font-size: 12px;}
+
+
+/* ------------------------------------------------------------------------- *
+/* 2.3 Index */
+/* ------------------------------------------------------------------------- */
+
+	/* Single, Post & Page */
+	.content-article { padding: 30px 0 50px 0; margin:0;float:left; width:100%}
+
+		.link-article { position: relative; }
+		.cont-tag { clear: both; padding-top: 20px; }
+
+
+/* ------------------------------------------------------------------------- *
+/* 2.4 Sections */
+/* ------------------------------------------------------------------------- */
+
+
+/* ------------------------------------------------------------------------- *
+/* 2.5 Sidebar */
+/* ------------------------------------------------------------------------- */
+.content-sidebar{margin-top:40px;float:left; width:100%;}
+
+.widget { float: left; margin-bottom: 40px; width: 100%;}
+.widget h3 { margin: 0 0 10px 0; }
+.widget a { display: block; padding: 10px 0; border-bottom: 1px solid #eee; }
+.widget ul { padding: 0; }
+.widget ul li { list-style-type: none; }
+
+	/* Calendar Widget */
+	#wp-calendar { width: 100%; }
+	#wp-calendar a { padding: 0; border: none; }
+	#wp-calendar caption,
+	.screen-reader-text { padding-bottom: 10px; color: #000; text-align: left; text-transform: uppercase; font-weight: 700; font-size: 14px; }
+	#wp-calendar thead { font-size: 10px; }
+	#wp-calendar thead th { padding-bottom: 10px; }
+	#wp-calendar tbody { color: #aaa; }
+	#wp-calendar tbody td { padding: 8px; border: 1px solid #fff; background: #f5f5f5; text-align: center; }
+	#wp-calendar tbody td:hover { background: #fff; }
+	#wp-calendar tbody .pad { background: none; }
+	#wp-calendar tfoot #next { text-align: right; text-transform: uppercase; font-size: 10px; }
+	#wp-calendar tfoot #prev { padding-top: 10px; text-transform: uppercase; font-size: 10px; }
+
+/* ------------------------------------------------------------------------- *
+/* 2.6 Footer */
+/* ------------------------------------------------------------------------- */
+
+.footer { float: left; margin: 0; width: 100%; background: #333; color: #fff; }
+.footer p{margin: 0;}
+.footer .container{ padding: 20px; }
+
+
+/* ------------------------------------------------------------------------- *
+/* 3 Modules */
+/* ------------------------------------------------------------------------- */
+
+  /* 3.1 Slider
+  --------------------------------------- */
+  .carousel,
+  .item,
+  .active,
+  .carousel-inner { height: 100%; }
+
+    .fill { position: absolute; z-index: 0;width: 100%; height: 100%;opacity:0.5;}
+    .bg-fill{ position: absolute; z-index: 0;width: 100%; height: 100%; background: #000;}
+
+    .slide .container-caption{ position: relative;z-index: 10; display:table;width:100%; height: 100%;}
+    .slide .carousel-caption {position: relative;right:0;  bottom: 0;left:0; display: table-cell;margin: 0;padding: 0; vertical-align: middle;}
+    .slide .carousel-caption h2{color:#fff; font-weight: 300;font-size: 55px;}
+    .slide .carousel-caption p{ position: relative; max-width: 720px; margin: auto;padding:20px;}
+    .slide .carousel-caption strong{text-transform: uppercase;}
+
+    /* Arrow */
+    .glyphicon-chevron-left:before { font-family: FontAwesome; content: '\f104';  font-size: 50px;color:#999; text-shadow: none}
+    .glyphicon-chevron-right:before { font-family: FontAwesome; content: '\f105'; font-size: 50px;color:#999; text-shadow: none}
+
+    .carousel-control.left,
+    .carousel-control.right{background-image: none}
+
+
+/* ------------------------------------------------------------------------- *
+/* 4 WordPress Default Element */
+/* ------------------------------------------------------------------------- */
+
+/* Pagination */
+.pagination { float: left; margin: 40px 0 40px 0; padding: 0; width: 100%; }
+.pagination span,
+.pagination a { float: left; margin: 0 10px 10px 0; padding: 14px 19px; border: 1px solid #eee; }
+
+/* Gallery */
+.gallery { float: left; margin: 20px 0 20px 0; width: 103.55%; }
+.gallery-item { float: left; width: 33.333333%; text-align: center; }
+.gallery img { margin: 0 10% 0 0; width: 90%; height: auto; border: none!important; }
+.gallery-caption { width: 90%;margin:10px 0 0 0;}
+
+/* Image */
+.alignleft { float: left; margin-right: 20px; margin-bottom: 10px; max-width: 97%; height: auto; }
+.alignright { float: right; margin-bottom: 10px; margin-left: 20px; max-width: 97%; height: auto; }
+.aligncenter { display: block; margin: 0 auto; max-width: 97%; height: auto; }
+.alignnone { max-width: 97%; height: auto; }
+
+/* Image Caption */
+.wp-caption { margin-bottom: 20px; padding: 10px; max-width: 97%; border: 1px solid #eee; text-align: center; }
+.wp-caption img { margin: 0; padding: 0; width: 100%!important; height: auto; border: 0 none; }
+.wp-caption p.wp-caption-text { margin: 0; padding: 8px; font-size: 1em; line-height: 17px; }
+
+/* Stiky */
+.sticky { border-right: 3px solid #eee; border-bottom: 3px solid #eee; }
+
+/* Blockquote */
+blockquote {font-weight: 200; font-size: 20px; font-style: italic; margin: 0.25em 0; padding: 0px 30px; line-height: 1.45; position: relative; color: #383838; border-left: 5px solid #eee; }
+
+/* Search */
+#srch-term { border: none; background: none; box-shadow: none; color: #fff; opacity: 0; }
+.btn-default { border: none; background: none; }
+.btn-default:hover { border: none; background: none; color: #fff; }
+.form-control::-moz-placeholder { color: #eee; }
+.search-light { background: #eee; }
+.search-light input { width: 80%; color: #333; }
+.search-light button{float:right;padding:10px 15px 0 0;}
+
+/* Contact Form 7 */
+.wpcf7 p input[type=text],
+.wpcf7 p input[type=email]{display: block; width: 98%;}
+.wpcf7 p.input-half{ width: 48%; margin-right: 2%; float:left; min-height: 70px}
+.wpcf7 p.input-half input[type=text],
+.wpcf7 p.input-half input[type=email]{ width: 100%;}
+.wpcf7-select {margin-right: 10px; padding: 10px; border: none; background: #eee;  width: 98%;height: 40px;}
+.wpcf7 p.input-half .wpcf7-select {width: 100%;}
+div.wpcf7-response-output {float:left; width:97%;margin: 0;}
+
+/* Comments */
+.comment-form-author,
+.comment-form-email,
+.comment-form-url { float: left; margin-top: 20px; margin-right: 3%; width: 30.3333333%; }
+.comment-form-author input,
+.comment-form-email input,
+.comment-form-url input { width: 100%; }
+
+ol.commentlist { margin: 0 0 1em; padding: 0; list-style: none; text-indent: 0; }
+ol.commentlist li.comment { padding: 1em; border-top: 1px solid #eee; }
+ol.commentlist li.comment div.vcard cite.fn { text-transform: uppercase; font-size: 14px; }
+ol.commentlist li.comment div.vcard img.avatar { float: left; margin: 6px 1em 1em 0; border-radius: 50px; }
+ol.commentlist li.comment div.comment-meta { font-size: 12px; }
+ol.commentlist li.comment ul { margin: 0 0 1em 2em; }
+ol.commentlist li.comment div.reply { margin-left: 80px; font-size: 11px; }
+ol.commentlist li.comment div.reply a { font-weight: bold; }
+ol.commentlist li.comment ul.children { margin: 1em 0 0; list-style: none; text-indent: 0; }
+ol.commentlist li.comment ul.children li.depth-2 { margin: 0 0 .25em .25em; border-left: 1px solid #eee; }
+ol.commentlist li.comment ul.children li.depth-3 { margin: 0 0 .25em .25em; border-left: 1px solid #eee; }
+ol.commentlist li.comment ul.children li.depth-4 { margin: 0 0 .25em .25em; border-left: 1px solid #eee; }
+ol.commentlist li.even { background: #fff; }
+ol.commentlist li.odd { /* background: #f9f9f9; */  }
+ol.commentlist li.parent { border-left: 1px solid #eee; }
+ol.commentlist li.bypostauthor .fn { font-weight: bold; }
+ol.commentlist li img{max-width: 97%;}
+
+input[type=text],
+input[type=email] { width: 98%;margin-right: 10px; padding: 10px; border: none; background: #eee; -webkit-appearance: none;border-radius: 0;}
+textarea { padding: 10px; width: 98%; border: none; background: #eee; -webkit-appearance: none;border-radius: 0;}
+input[type=submit] { margin-top: 10px; padding: 15px 20px; color: #fff; text-transform: uppercase; background: #333; border:none; }
+#comments { width: 100%; }
+
+
+/* ------------------------------------------------------------------------- *
+/* 5 Responsive */
+/* ------------------------------------------------------------------------- */
+
+/* ----------------------------- */
+/* Desktop */
+/* ----------------------------- */
+@media (min-width: 1023px) {
+
+  /* Menu */
+	.spacer { height: 90px; }
+	.navbar { min-height: 90px; }
+	.navbar-brand,
+	.navbar-nav li a {
+	    padding-top: 0;
+	    height: 90px;
+	    line-height: 90px;
+	}
+	.dropdown-menu li a {
+	    padding-top: 0;
+	    height: 40px;
+	    line-height: 40px;
+
+	}
+	.navbar .logo-img img{width:auto; height: 90px;}
+
+}
+
+/* ----------------------------- */
+/* Tablet */
+/* ----------------------------- */
+@media (max-width: 1022px) {
+
+  /* Menu */
+	.navbar .logo-img img{width:auto; height: 50px;}
+
+  /* Slider */
+	.slide{height: 100%;}
+	.slide .carousel-caption h2{font-size: 30px;}
+	.slide .carousel-caption h3{font-size: 18px;}
+
+}
+
+/* ----------------------------- */
+/* Smarthphone */
+/* ----------------------------- */
+@media (max-width: 768px) {
+
+  /* Menu */
+	.navbar-toggle {border: none!important;margin-top: 14px}
+	.navbar-toggle .icon-bar{background: #000!important;  width: 26px;height: 3px;border-radius: 4px; margin-bottom: 5px;}
+	.navbar-inverse .navbar-toggle:hover,
+	.navbar-inverse .navbar-toggle:hover { background-color: transparent;}
+
+		/* Dropdown */
+		.dropdown-menu{border-bottom: 1px solid #eee!important}
+		.navbar-nav .open .dropdown-menu > li > a,
+		.navbar-nav .open .dropdown-menu .dropdown-header { padding: 22px 15px 5px 30px; }
+
+  /* Footer */
+	.footer .alignright{float:left;margin-top:5px;}
+
+  /* Comment */
+	.comment-form-author,
+	.comment-form-email,
+	.comment-form-url{margin-top:0;width:97%;}
+
+  /* Contact Form 7 */
+	.wpcf7 p.input-half{ width: 98%; margin-right: 2%;}
+
+}

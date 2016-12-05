@@ -1,0 +1,46 @@
+
+.saftysection{
+ margin: 0em;
+ padding: 0em;
+}
+
+add_action( 'widgets_init', 'codesnippets_widgets' );
+function codesnippets_widgets() {
+/* <?php dynamic_sidebar( 'sidebar-head-t' ); ?> */
+register_sidebar( array(
+	'id' => 'sidebar-head-t','name' => __( 'sidebar-head-t', 'generic' ),
+	)   );
+register_sidebar( array(
+	'id' => 'sidebar-head-b', 'name' => __( 'sidebar-head-b', 'generic' ),
+	)   );
+
+register_sidebar( array(
+	'id' => 'sidebar-body-t','name' => __( 'sidebar-body-t', 'generic' ),
+	)		);
+register_sidebar(		array(
+	'id' => 'sidebar-body-b', 'name' => __( 'sidebar-body-b', 'generic' ),
+	)		);
+
+register_sidebar(		array(
+	'id' => 'sidebar-footer-t',	'name' => __( 'sidebar-footer-t', 'generic' ),
+	)		);
+register_sidebar(		array(
+	'id' => 'sidebar-footer-b',	'name' => __( 'sidebar-footer-b', 'generic' ),
+	)		);
+}
+
+/*
+Theme Name: codesnippets
+Theme URI: http://xxxxx/
+Author: Kuniga Maeno
+Author URI: http://xxxxxx.com/
+Description: codesnippets simple snippet viewer.
+Version: 0.1
+License: GNU General Public License, Original Bryan Hadaway build 'generic' theme.
+License URI: https://www.gnu.org/licenses/gpl.html
+Tags: tinu, white, light, one-column, fluid-layout, responsive-layout, custom-menu, featured-images, microformats, sticky-post, threaded-comments, translation-ready
+Text Domain: codesnippets
+
+Generic WordPress Theme © 2015-2016 GenericTools
+Generic is distributed under the terms of the GNU GPL
+*/

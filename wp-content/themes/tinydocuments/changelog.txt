@@ -1,0 +1,79 @@
+== changelog ==
+
+= 2.7.6 =
+- add widget_search in Sidebar Head
+
+= 2.7.3 =
+- textarea css - outline:none
+
+= 2.7.2 =
+- Language - Czech
+
+= 2.7.1 =
+  -ms-word-wrap: break-word;
+  word-wrap: break-word;
+- Color "Sticky"
+
+= 2.6.9 =
+- add Armenian
+
+= 2.6.8 =
+- Ukrainian
+
+= 2.6.7 =
+- Swedish
+
+= 2.6.6 =
+- add Screen-reader text
+
+= 2.6.4 =
+- text-domain fix
+
+= 2.6.4 =
+- add English (Australia), English (Canada), English (UK), Occitan, Scottish Gaelic
+
+= 2.6.2 =
+- add Albanian, Basque, Bosnian, Catalan, Chinese (China), Chinese (Taiwan), Croatian, Danish, Estonian, Finnish, Galician, Hazaragi, Hebrew, Icelandic, Latvian, Lithuanian, Macedonian, Myanmar, Norwegian, Pashto, Persian, Portuguese, Romanian, Serbian, Slovak, Slovenian, Spanish (Mexico), Spanish (Peru), Swedish, Switzerland, Tagalog, Thai, Uighur, Vietnamese, Welsh
+
+= 2.6.1 =
+- add Azerbaijani
+
+= 2.6 =
+- add Bengali, Bulgarian
+
+= 2.3.2 =
+- delete responsive
+
+= 2.2 =
+- bug fix
+- fix button
+
+= 1.9.5 =
+- Available in Chinese
+- Support of Easy Google Fonts
+
+= 1.9.2 =
+- Available in English, French, German, Italian, Russian
+- bug fix - search
+
+= 1.9 =
+- Support Jetpack ( change logo )
+
+= 1.8 =
+- Support of Contact Form 7 and Subscribe2
+- Fix Responsive 768px and 320px
+
+= 1.7 =
+- Fix Responsive
+
+= 1.6 = 
+- Fix bug 
+- Change color link  
+- Change size button 
+
+= 1.5 =
+- Fix bug
+- Change color footer
+
+= 1.4 =
+- improved: calendar

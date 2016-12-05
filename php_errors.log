@@ -1,0 +1,372 @@
+[07-Nov-2016 14:18:42 UTC] PHP Parse error:  syntax error, unexpected '@' in /home/ubuntu/workspace/wp-content/themes/sparkling/slg/slg-inc.php on line 25
+[07-Nov-2016 14:18:42 UTC] PHP Stack trace:
+[07-Nov-2016 14:18:42 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/admin-ajax.php:0
+[07-Nov-2016 14:18:42 UTC] PHP   2. require_once() /home/ubuntu/workspace/wp-admin/admin-ajax.php:22
+[07-Nov-2016 14:18:42 UTC] PHP   3. require_once() /home/ubuntu/workspace/wp-load.php:39
+[07-Nov-2016 14:18:42 UTC] PHP   4. require_once() /home/ubuntu/workspace/wp-config.php:92
+[07-Nov-2016 14:18:42 UTC] PHP   5. include() /home/ubuntu/workspace/wp-settings.php:387
+[15-Nov-2016 07:15:08 UTC] PHP Parse error:  syntax error, unexpected '$g_p' (T_VARIABLE) in /home/ubuntu/workspace/wp-content/themes/sparkling/slg/messa-core.php on line 14
+[15-Nov-2016 07:15:08 UTC] PHP Stack trace:
+[15-Nov-2016 07:15:08 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/admin-ajax.php:0
+[15-Nov-2016 07:15:08 UTC] PHP   2. require_once() /home/ubuntu/workspace/wp-admin/admin-ajax.php:22
+[15-Nov-2016 07:15:08 UTC] PHP   3. require_once() /home/ubuntu/workspace/wp-load.php:39
+[15-Nov-2016 07:15:08 UTC] PHP   4. require_once() /home/ubuntu/workspace/wp-config.php:92
+[15-Nov-2016 07:15:08 UTC] PHP   5. include() /home/ubuntu/workspace/wp-settings.php:387
+[15-Nov-2016 07:15:08 UTC] PHP   6. require_once() /home/ubuntu/workspace/wp-content/themes/sparkling/functions.php:454
+[15-Nov-2016 07:17:09 UTC] PHP Parse error:  syntax error, unexpected '$g_p' (T_VARIABLE) in /home/ubuntu/workspace/wp-content/themes/sparkling/slg/messa-core.php on line 14
+[15-Nov-2016 07:17:09 UTC] PHP Stack trace:
+[15-Nov-2016 07:17:09 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/admin-ajax.php:0
+[15-Nov-2016 07:17:09 UTC] PHP   2. require_once() /home/ubuntu/workspace/wp-admin/admin-ajax.php:22
+[15-Nov-2016 07:17:09 UTC] PHP   3. require_once() /home/ubuntu/workspace/wp-load.php:39
+[15-Nov-2016 07:17:09 UTC] PHP   4. require_once() /home/ubuntu/workspace/wp-config.php:92
+[15-Nov-2016 07:17:09 UTC] PHP   5. include() /home/ubuntu/workspace/wp-settings.php:387
+[15-Nov-2016 07:17:09 UTC] PHP   6. require_once() /home/ubuntu/workspace/wp-content/themes/sparkling/functions.php:454
+[15-Nov-2016 07:19:10 UTC] PHP Parse error:  syntax error, unexpected '$g_p' (T_VARIABLE) in /home/ubuntu/workspace/wp-content/themes/sparkling/slg/messa-core.php on line 14
+[15-Nov-2016 07:19:10 UTC] PHP Stack trace:
+[15-Nov-2016 07:19:10 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/admin-ajax.php:0
+[15-Nov-2016 07:19:10 UTC] PHP   2. require_once() /home/ubuntu/workspace/wp-admin/admin-ajax.php:22
+[15-Nov-2016 07:19:10 UTC] PHP   3. require_once() /home/ubuntu/workspace/wp-load.php:39
+[15-Nov-2016 07:19:10 UTC] PHP   4. require_once() /home/ubuntu/workspace/wp-config.php:92
+[15-Nov-2016 07:19:10 UTC] PHP   5. include() /home/ubuntu/workspace/wp-settings.php:387
+[15-Nov-2016 07:19:10 UTC] PHP   6. require_once() /home/ubuntu/workspace/wp-content/themes/sparkling/functions.php:454
+[15-Nov-2016 07:20:10 UTC] PHP Parse error:  syntax error, unexpected '$g_p' (T_VARIABLE) in /home/ubuntu/workspace/wp-content/themes/sparkling/slg/messa-core.php on line 14
+[15-Nov-2016 07:20:10 UTC] PHP Stack trace:
+[15-Nov-2016 07:20:10 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/admin-ajax.php:0
+[15-Nov-2016 07:20:10 UTC] PHP   2. require_once() /home/ubuntu/workspace/wp-admin/admin-ajax.php:22
+[15-Nov-2016 07:20:10 UTC] PHP   3. require_once() /home/ubuntu/workspace/wp-load.php:39
+[15-Nov-2016 07:20:10 UTC] PHP   4. require_once() /home/ubuntu/workspace/wp-config.php:92
+[15-Nov-2016 07:20:10 UTC] PHP   5. include() /home/ubuntu/workspace/wp-settings.php:387
+[15-Nov-2016 07:20:10 UTC] PHP   6. require_once() /home/ubuntu/workspace/wp-content/themes/sparkling/functions.php:454
+[15-Nov-2016 07:22:11 UTC] PHP Parse error:  syntax error, unexpected '$g_p' (T_VARIABLE) in /home/ubuntu/workspace/wp-content/themes/sparkling/slg/messa-core.php on line 14
+[15-Nov-2016 07:22:11 UTC] PHP Stack trace:
+[15-Nov-2016 07:22:11 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/admin-ajax.php:0
+[15-Nov-2016 07:22:11 UTC] PHP   2. require_once() /home/ubuntu/workspace/wp-admin/admin-ajax.php:22
+[15-Nov-2016 07:22:11 UTC] PHP   3. require_once() /home/ubuntu/workspace/wp-load.php:39
+[15-Nov-2016 07:22:11 UTC] PHP   4. require_once() /home/ubuntu/workspace/wp-config.php:92
+[15-Nov-2016 07:22:11 UTC] PHP   5. include() /home/ubuntu/workspace/wp-settings.php:387
+[15-Nov-2016 07:22:11 UTC] PHP   6. require_once() /home/ubuntu/workspace/wp-content/themes/sparkling/functions.php:454
+[15-Nov-2016 07:24:12 UTC] PHP Parse error:  syntax error, unexpected '$g_p' (T_VARIABLE) in /home/ubuntu/workspace/wp-content/themes/sparkling/slg/messa-core.php on line 14
+[15-Nov-2016 07:24:12 UTC] PHP Stack trace:
+[15-Nov-2016 07:24:12 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/admin-ajax.php:0
+[15-Nov-2016 07:24:12 UTC] PHP   2. require_once() /home/ubuntu/workspace/wp-admin/admin-ajax.php:22
+[15-Nov-2016 07:24:12 UTC] PHP   3. require_once() /home/ubuntu/workspace/wp-load.php:39
+[15-Nov-2016 07:24:12 UTC] PHP   4. require_once() /home/ubuntu/workspace/wp-config.php:92
+[15-Nov-2016 07:24:12 UTC] PHP   5. include() /home/ubuntu/workspace/wp-settings.php:387
+[15-Nov-2016 07:24:12 UTC] PHP   6. require_once() /home/ubuntu/workspace/wp-content/themes/sparkling/functions.php:454
+[15-Nov-2016 07:26:13 UTC] PHP Parse error:  syntax error, unexpected '$g_p' (T_VARIABLE) in /home/ubuntu/workspace/wp-content/themes/sparkling/slg/messa-core.php on line 14
+[15-Nov-2016 07:26:13 UTC] PHP Stack trace:
+[15-Nov-2016 07:26:13 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/admin-ajax.php:0
+[15-Nov-2016 07:26:13 UTC] PHP   2. require_once() /home/ubuntu/workspace/wp-admin/admin-ajax.php:22
+[15-Nov-2016 07:26:13 UTC] PHP   3. require_once() /home/ubuntu/workspace/wp-load.php:39
+[15-Nov-2016 07:26:13 UTC] PHP   4. require_once() /home/ubuntu/workspace/wp-config.php:92
+[15-Nov-2016 07:26:13 UTC] PHP   5. include() /home/ubuntu/workspace/wp-settings.php:387
+[15-Nov-2016 07:26:13 UTC] PHP   6. require_once() /home/ubuntu/workspace/wp-content/themes/sparkling/functions.php:454
+[15-Nov-2016 07:28:13 UTC] PHP Parse error:  syntax error, unexpected '$g_p' (T_VARIABLE) in /home/ubuntu/workspace/wp-content/themes/sparkling/slg/messa-core.php on line 14
+[15-Nov-2016 07:28:13 UTC] PHP Stack trace:
+[15-Nov-2016 07:28:13 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/admin-ajax.php:0
+[15-Nov-2016 07:28:13 UTC] PHP   2. require_once() /home/ubuntu/workspace/wp-admin/admin-ajax.php:22
+[15-Nov-2016 07:28:13 UTC] PHP   3. require_once() /home/ubuntu/workspace/wp-load.php:39
+[15-Nov-2016 07:28:13 UTC] PHP   4. require_once() /home/ubuntu/workspace/wp-config.php:92
+[15-Nov-2016 07:28:13 UTC] PHP   5. include() /home/ubuntu/workspace/wp-settings.php:387
+[15-Nov-2016 07:28:13 UTC] PHP   6. require_once() /home/ubuntu/workspace/wp-content/themes/sparkling/functions.php:454
+[15-Nov-2016 07:30:14 UTC] PHP Parse error:  syntax error, unexpected '$g_p' (T_VARIABLE) in /home/ubuntu/workspace/wp-content/themes/sparkling/slg/messa-core.php on line 14
+[15-Nov-2016 07:30:14 UTC] PHP Stack trace:
+[15-Nov-2016 07:30:14 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/admin-ajax.php:0
+[15-Nov-2016 07:30:14 UTC] PHP   2. require_once() /home/ubuntu/workspace/wp-admin/admin-ajax.php:22
+[15-Nov-2016 07:30:14 UTC] PHP   3. require_once() /home/ubuntu/workspace/wp-load.php:39
+[15-Nov-2016 07:30:14 UTC] PHP   4. require_once() /home/ubuntu/workspace/wp-config.php:92
+[15-Nov-2016 07:30:14 UTC] PHP   5. include() /home/ubuntu/workspace/wp-settings.php:387
+[15-Nov-2016 07:30:14 UTC] PHP   6. require_once() /home/ubuntu/workspace/wp-content/themes/sparkling/functions.php:454
+[15-Nov-2016 07:32:14 UTC] PHP Parse error:  syntax error, unexpected '$g_p' (T_VARIABLE) in /home/ubuntu/workspace/wp-content/themes/sparkling/slg/messa-core.php on line 14
+[15-Nov-2016 07:32:14 UTC] PHP Stack trace:
+[15-Nov-2016 07:32:14 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/admin-ajax.php:0
+[15-Nov-2016 07:32:14 UTC] PHP   2. require_once() /home/ubuntu/workspace/wp-admin/admin-ajax.php:22
+[15-Nov-2016 07:32:14 UTC] PHP   3. require_once() /home/ubuntu/workspace/wp-load.php:39
+[15-Nov-2016 07:32:14 UTC] PHP   4. require_once() /home/ubuntu/workspace/wp-config.php:92
+[15-Nov-2016 07:32:14 UTC] PHP   5. include() /home/ubuntu/workspace/wp-settings.php:387
+[15-Nov-2016 07:32:14 UTC] PHP   6. require_once() /home/ubuntu/workspace/wp-content/themes/sparkling/functions.php:454
+[15-Nov-2016 07:34:15 UTC] PHP Parse error:  syntax error, unexpected '$g_p' (T_VARIABLE) in /home/ubuntu/workspace/wp-content/themes/sparkling/slg/messa-core.php on line 14
+[15-Nov-2016 07:34:15 UTC] PHP Stack trace:
+[15-Nov-2016 07:34:15 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/admin-ajax.php:0
+[15-Nov-2016 07:34:15 UTC] PHP   2. require_once() /home/ubuntu/workspace/wp-admin/admin-ajax.php:22
+[15-Nov-2016 07:34:15 UTC] PHP   3. require_once() /home/ubuntu/workspace/wp-load.php:39
+[15-Nov-2016 07:34:15 UTC] PHP   4. require_once() /home/ubuntu/workspace/wp-config.php:92
+[15-Nov-2016 07:34:15 UTC] PHP   5. include() /home/ubuntu/workspace/wp-settings.php:387
+[15-Nov-2016 07:34:15 UTC] PHP   6. require_once() /home/ubuntu/workspace/wp-content/themes/sparkling/functions.php:454
+[15-Nov-2016 07:36:16 UTC] PHP Parse error:  syntax error, unexpected '$g_p' (T_VARIABLE) in /home/ubuntu/workspace/wp-content/themes/sparkling/slg/messa-core.php on line 14
+[15-Nov-2016 07:36:16 UTC] PHP Stack trace:
+[15-Nov-2016 07:36:16 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/admin-ajax.php:0
+[15-Nov-2016 07:36:16 UTC] PHP   2. require_once() /home/ubuntu/workspace/wp-admin/admin-ajax.php:22
+[15-Nov-2016 07:36:16 UTC] PHP   3. require_once() /home/ubuntu/workspace/wp-load.php:39
+[15-Nov-2016 07:36:16 UTC] PHP   4. require_once() /home/ubuntu/workspace/wp-config.php:92
+[15-Nov-2016 07:36:16 UTC] PHP   5. include() /home/ubuntu/workspace/wp-settings.php:387
+[15-Nov-2016 07:36:16 UTC] PHP   6. require_once() /home/ubuntu/workspace/wp-content/themes/sparkling/functions.php:454
+[20-Nov-2016 17:32:41 UTC] PHP Parse error:  syntax error, unexpected 'remove_filter' (T_STRING) in /home/ubuntu/workspace/wp-content/themes/arzine/functions.php on line 232
+[20-Nov-2016 17:32:41 UTC] PHP Stack trace:
+[20-Nov-2016 17:32:41 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/admin-ajax.php:0
+[20-Nov-2016 17:32:41 UTC] PHP   2. require_once() /home/ubuntu/workspace/wp-admin/admin-ajax.php:22
+[20-Nov-2016 17:32:41 UTC] PHP   3. require_once() /home/ubuntu/workspace/wp-load.php:39
+[20-Nov-2016 17:32:41 UTC] PHP   4. require_once() /home/ubuntu/workspace/wp-config.php:92
+[20-Nov-2016 17:32:47 UTC] PHP Parse error:  syntax error, unexpected 'remove_filter' (T_STRING) in /home/ubuntu/workspace/wp-content/themes/arzine/functions.php on line 232
+[20-Nov-2016 17:32:47 UTC] PHP Stack trace:
+[20-Nov-2016 17:32:47 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/index.php:0
+[20-Nov-2016 17:32:47 UTC] PHP   2. require_once() /home/ubuntu/workspace/wp-admin/index.php:10
+[20-Nov-2016 17:32:47 UTC] PHP   3. require_once() /home/ubuntu/workspace/wp-admin/admin.php:31
+[20-Nov-2016 17:32:47 UTC] PHP   4. require_once() /home/ubuntu/workspace/wp-load.php:39
+[20-Nov-2016 17:32:47 UTC] PHP   5. require_once() /home/ubuntu/workspace/wp-config.php:92
+[20-Nov-2016 17:32:48 UTC] PHP Parse error:  syntax error, unexpected 'remove_filter' (T_STRING) in /home/ubuntu/workspace/wp-content/themes/arzine/functions.php on line 232
+[20-Nov-2016 17:32:48 UTC] PHP Stack trace:
+[20-Nov-2016 17:32:48 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/index.php:0
+[20-Nov-2016 17:32:48 UTC] PHP   2. require_once() /home/ubuntu/workspace/wp-admin/index.php:10
+[20-Nov-2016 17:32:48 UTC] PHP   3. require_once() /home/ubuntu/workspace/wp-admin/admin.php:31
+[20-Nov-2016 17:32:48 UTC] PHP   4. require_once() /home/ubuntu/workspace/wp-load.php:39
+[20-Nov-2016 17:32:48 UTC] PHP   5. require_once() /home/ubuntu/workspace/wp-config.php:92
+[20-Nov-2016 17:33:41 UTC] PHP Parse error:  syntax error, unexpected 'remove_filter' (T_STRING) in /home/ubuntu/workspace/wp-content/themes/arzine/functions.php on line 232
+[20-Nov-2016 17:33:41 UTC] PHP Stack trace:
+[20-Nov-2016 17:33:41 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/admin-ajax.php:0
+[20-Nov-2016 17:33:41 UTC] PHP   2. require_once() /home/ubuntu/workspace/wp-admin/admin-ajax.php:22
+[20-Nov-2016 17:33:41 UTC] PHP   3. require_once() /home/ubuntu/workspace/wp-load.php:39
+[20-Nov-2016 17:33:41 UTC] PHP   4. require_once() /home/ubuntu/workspace/wp-config.php:92
+[24-Nov-2016 09:16:57 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/ubuntu/workspace/wp-content/themes/cheatsheet/pak/cht-functions.php on line 89
+[24-Nov-2016 09:16:57 UTC] PHP Stack trace:
+[24-Nov-2016 09:16:57 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/admin-ajax.php:0
+[24-Nov-2016 09:16:57 UTC] PHP   2. require_once() /home/ubuntu/workspace/wp-admin/admin-ajax.php:22
+[24-Nov-2016 09:16:57 UTC] PHP   3. require_once() /home/ubuntu/workspace/wp-load.php:39
+[24-Nov-2016 09:16:57 UTC] PHP   4. require_once() /home/ubuntu/workspace/wp-config.php:92
+[24-Nov-2016 09:16:57 UTC] PHP   5. include() /home/ubuntu/workspace/wp-settings.php:387
+[24-Nov-2016 09:31:03 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'disable_emojicons_tinymce' not found or invalid function name in /home/ubuntu/workspace/wp-includes/plugin.php on line 235
+[24-Nov-2016 09:31:03 UTC] PHP Stack trace:
+[24-Nov-2016 09:31:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/post-new.php:0
+[24-Nov-2016 09:31:03 UTC] PHP   2. include() /home/ubuntu/workspace/wp-admin/post-new.php:85
+[24-Nov-2016 09:31:03 UTC] PHP   3. wp_editor() /home/ubuntu/workspace/wp-admin/edit-form-advanced.php:625
+[24-Nov-2016 09:31:03 UTC] PHP   4. _WP_Editors::editor() /home/ubuntu/workspace/wp-includes/general-template.php:2986
+[24-Nov-2016 09:31:03 UTC] PHP   5. _WP_Editors::editor_settings() /home/ubuntu/workspace/wp-includes/class-wp-editor.php:293
+[24-Nov-2016 09:31:03 UTC] PHP   6. apply_filters() /home/ubuntu/workspace/wp-includes/class-wp-editor.php:430
+[24-Nov-2016 09:31:03 UTC] PHP   7. call_user_func_array:{/home/ubuntu/workspace/wp-includes/plugin.php:235}() /home/ubuntu/workspace/wp-includes/plugin.php:235
+[24-Nov-2016 09:31:03 UTC] PHP Warning:  array_unique() expects parameter 1 to be array, null given in /home/ubuntu/workspace/wp-includes/class-wp-editor.php on line 430
+[24-Nov-2016 09:31:03 UTC] PHP Stack trace:
+[24-Nov-2016 09:31:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/post-new.php:0
+[24-Nov-2016 09:31:03 UTC] PHP   2. include() /home/ubuntu/workspace/wp-admin/post-new.php:85
+[24-Nov-2016 09:31:03 UTC] PHP   3. wp_editor() /home/ubuntu/workspace/wp-admin/edit-form-advanced.php:625
+[24-Nov-2016 09:31:03 UTC] PHP   4. _WP_Editors::editor() /home/ubuntu/workspace/wp-includes/general-template.php:2986
+[24-Nov-2016 09:31:03 UTC] PHP   5. _WP_Editors::editor_settings() /home/ubuntu/workspace/wp-includes/class-wp-editor.php:293
+[24-Nov-2016 09:31:03 UTC] PHP   6. array_unique() /home/ubuntu/workspace/wp-includes/class-wp-editor.php:430
+[24-Nov-2016 09:31:03 UTC] PHP Warning:  array_search() expects parameter 2 to be array, null given in /home/ubuntu/workspace/wp-includes/class-wp-editor.php on line 432
+[24-Nov-2016 09:31:03 UTC] PHP Stack trace:
+[24-Nov-2016 09:31:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/post-new.php:0
+[24-Nov-2016 09:31:03 UTC] PHP   2. include() /home/ubuntu/workspace/wp-admin/post-new.php:85
+[24-Nov-2016 09:31:03 UTC] PHP   3. wp_editor() /home/ubuntu/workspace/wp-admin/edit-form-advanced.php:625
+[24-Nov-2016 09:31:03 UTC] PHP   4. _WP_Editors::editor() /home/ubuntu/workspace/wp-includes/general-template.php:2986
+[24-Nov-2016 09:31:03 UTC] PHP   5. _WP_Editors::editor_settings() /home/ubuntu/workspace/wp-includes/class-wp-editor.php:293
+[24-Nov-2016 09:31:03 UTC] PHP   6. array_search() /home/ubuntu/workspace/wp-includes/class-wp-editor.php:432
+[24-Nov-2016 09:31:03 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/ubuntu/workspace/wp-includes/class-wp-editor.php on line 469
+[24-Nov-2016 09:31:03 UTC] PHP Stack trace:
+[24-Nov-2016 09:31:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/post-new.php:0
+[24-Nov-2016 09:31:03 UTC] PHP   2. include() /home/ubuntu/workspace/wp-admin/post-new.php:85
+[24-Nov-2016 09:31:03 UTC] PHP   3. wp_editor() /home/ubuntu/workspace/wp-admin/edit-form-advanced.php:625
+[24-Nov-2016 09:31:03 UTC] PHP   4. _WP_Editors::editor() /home/ubuntu/workspace/wp-includes/general-template.php:2986
+[24-Nov-2016 09:31:03 UTC] PHP   5. _WP_Editors::editor_settings() /home/ubuntu/workspace/wp-includes/class-wp-editor.php:293
+[24-Nov-2016 09:31:03 UTC] PHP   6. in_array() /home/ubuntu/workspace/wp-includes/class-wp-editor.php:469
+[24-Nov-2016 09:31:03 UTC] PHP Warning:  implode(): Invalid arguments passed in /home/ubuntu/workspace/wp-includes/class-wp-editor.php on line 553
+[24-Nov-2016 09:31:03 UTC] PHP Stack trace:
+[24-Nov-2016 09:31:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/post-new.php:0
+[24-Nov-2016 09:31:03 UTC] PHP   2. include() /home/ubuntu/workspace/wp-admin/post-new.php:85
+[24-Nov-2016 09:31:03 UTC] PHP   3. wp_editor() /home/ubuntu/workspace/wp-admin/edit-form-advanced.php:625
+[24-Nov-2016 09:31:03 UTC] PHP   4. _WP_Editors::editor() /home/ubuntu/workspace/wp-includes/general-template.php:2986
+[24-Nov-2016 09:31:03 UTC] PHP   5. _WP_Editors::editor_settings() /home/ubuntu/workspace/wp-includes/class-wp-editor.php:293
+[24-Nov-2016 09:31:03 UTC] PHP   6. implode() /home/ubuntu/workspace/wp-includes/class-wp-editor.php:553
+[24-Nov-2016 09:31:03 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/ubuntu/workspace/wp-includes/class-wp-editor.php on line 781
+[24-Nov-2016 09:31:03 UTC] PHP Stack trace:
+[24-Nov-2016 09:31:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/post-new.php:0
+[24-Nov-2016 09:31:03 UTC] PHP   2. include() /home/ubuntu/workspace/wp-admin/post-new.php:86
+[24-Nov-2016 09:31:03 UTC] PHP   3. do_action() /home/ubuntu/workspace/wp-admin/admin-footer.php:93
+[24-Nov-2016 09:31:03 UTC] PHP   4. call_user_func_array:{/home/ubuntu/workspace/wp-includes/plugin.php:524}() /home/ubuntu/workspace/wp-includes/plugin.php:524
+[24-Nov-2016 09:31:03 UTC] PHP   5. _WP_Editors::enqueue_scripts() /home/ubuntu/workspace/wp-includes/plugin.php:524
+[24-Nov-2016 09:31:03 UTC] PHP   6. in_array() /home/ubuntu/workspace/wp-includes/class-wp-editor.php:781
+[24-Nov-2016 09:31:03 UTC] PHP Warning:  implode(): Invalid arguments passed in /home/ubuntu/workspace/wp-includes/class-wp-editor.php on line 1180
+[24-Nov-2016 09:31:03 UTC] PHP Stack trace:
+[24-Nov-2016 09:31:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/post-new.php:0
+[24-Nov-2016 09:31:03 UTC] PHP   2. include() /home/ubuntu/workspace/wp-admin/post-new.php:86
+[24-Nov-2016 09:31:03 UTC] PHP   3. do_action() /home/ubuntu/workspace/wp-admin/admin-footer.php:93
+[24-Nov-2016 09:31:03 UTC] PHP   4. call_user_func_array:{/home/ubuntu/workspace/wp-includes/plugin.php:524}() /home/ubuntu/workspace/wp-includes/plugin.php:524
+[24-Nov-2016 09:31:03 UTC] PHP   5. _WP_Editors::editor_js() /home/ubuntu/workspace/wp-includes/plugin.php:524
+[24-Nov-2016 09:31:03 UTC] PHP   6. implode() /home/ubuntu/workspace/wp-includes/class-wp-editor.php:1180
+[24-Nov-2016 09:31:03 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/ubuntu/workspace/wp-includes/class-wp-editor.php on line 1297
+[24-Nov-2016 09:31:03 UTC] PHP Stack trace:
+[24-Nov-2016 09:31:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/post-new.php:0
+[24-Nov-2016 09:31:03 UTC] PHP   2. include() /home/ubuntu/workspace/wp-admin/post-new.php:86
+[24-Nov-2016 09:31:03 UTC] PHP   3. do_action() /home/ubuntu/workspace/wp-admin/admin-footer.php:93
+[24-Nov-2016 09:31:03 UTC] PHP   4. call_user_func_array:{/home/ubuntu/workspace/wp-includes/plugin.php:524}() /home/ubuntu/workspace/wp-includes/plugin.php:524
+[24-Nov-2016 09:31:03 UTC] PHP   5. _WP_Editors::editor_js() /home/ubuntu/workspace/wp-includes/plugin.php:524
+[24-Nov-2016 09:31:03 UTC] PHP   6. in_array() /home/ubuntu/workspace/wp-includes/class-wp-editor.php:1297
+[24-Nov-2016 09:31:03 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'disable_emojicons_tinymce' not found or invalid function name in /home/ubuntu/workspace/wp-includes/plugin.php on line 235
+[24-Nov-2016 09:31:03 UTC] PHP Stack trace:
+[24-Nov-2016 09:31:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/post-new.php:0
+[24-Nov-2016 09:31:03 UTC] PHP   2. include() /home/ubuntu/workspace/wp-admin/post-new.php:85
+[24-Nov-2016 09:31:03 UTC] PHP   3. wp_editor() /home/ubuntu/workspace/wp-admin/edit-form-advanced.php:625
+[24-Nov-2016 09:31:03 UTC] PHP   4. _WP_Editors::editor() /home/ubuntu/workspace/wp-includes/general-template.php:2986
+[24-Nov-2016 09:31:03 UTC] PHP   5. _WP_Editors::editor_settings() /home/ubuntu/workspace/wp-includes/class-wp-editor.php:293
+[24-Nov-2016 09:31:03 UTC] PHP   6. apply_filters() /home/ubuntu/workspace/wp-includes/class-wp-editor.php:430
+[24-Nov-2016 09:31:03 UTC] PHP   7. call_user_func_array:{/home/ubuntu/workspace/wp-includes/plugin.php:235}() /home/ubuntu/workspace/wp-includes/plugin.php:235
+[24-Nov-2016 09:31:03 UTC] PHP Warning:  array_unique() expects parameter 1 to be array, null given in /home/ubuntu/workspace/wp-includes/class-wp-editor.php on line 430
+[24-Nov-2016 09:31:03 UTC] PHP Stack trace:
+[24-Nov-2016 09:31:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/post-new.php:0
+[24-Nov-2016 09:31:03 UTC] PHP   2. include() /home/ubuntu/workspace/wp-admin/post-new.php:85
+[24-Nov-2016 09:31:03 UTC] PHP   3. wp_editor() /home/ubuntu/workspace/wp-admin/edit-form-advanced.php:625
+[24-Nov-2016 09:31:03 UTC] PHP   4. _WP_Editors::editor() /home/ubuntu/workspace/wp-includes/general-template.php:2986
+[24-Nov-2016 09:31:03 UTC] PHP   5. _WP_Editors::editor_settings() /home/ubuntu/workspace/wp-includes/class-wp-editor.php:293
+[24-Nov-2016 09:31:03 UTC] PHP   6. array_unique() /home/ubuntu/workspace/wp-includes/class-wp-editor.php:430
+[24-Nov-2016 09:31:03 UTC] PHP Warning:  array_search() expects parameter 2 to be array, null given in /home/ubuntu/workspace/wp-includes/class-wp-editor.php on line 432
+[24-Nov-2016 09:31:03 UTC] PHP Stack trace:
+[24-Nov-2016 09:31:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/post-new.php:0
+[24-Nov-2016 09:31:03 UTC] PHP   2. include() /home/ubuntu/workspace/wp-admin/post-new.php:85
+[24-Nov-2016 09:31:03 UTC] PHP   3. wp_editor() /home/ubuntu/workspace/wp-admin/edit-form-advanced.php:625
+[24-Nov-2016 09:31:03 UTC] PHP   4. _WP_Editors::editor() /home/ubuntu/workspace/wp-includes/general-template.php:2986
+[24-Nov-2016 09:31:03 UTC] PHP   5. _WP_Editors::editor_settings() /home/ubuntu/workspace/wp-includes/class-wp-editor.php:293
+[24-Nov-2016 09:31:03 UTC] PHP   6. array_search() /home/ubuntu/workspace/wp-includes/class-wp-editor.php:432
+[24-Nov-2016 09:31:03 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/ubuntu/workspace/wp-includes/class-wp-editor.php on line 469
+[24-Nov-2016 09:31:03 UTC] PHP Stack trace:
+[24-Nov-2016 09:31:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/post-new.php:0
+[24-Nov-2016 09:31:03 UTC] PHP   2. include() /home/ubuntu/workspace/wp-admin/post-new.php:85
+[24-Nov-2016 09:31:03 UTC] PHP   3. wp_editor() /home/ubuntu/workspace/wp-admin/edit-form-advanced.php:625
+[24-Nov-2016 09:31:03 UTC] PHP   4. _WP_Editors::editor() /home/ubuntu/workspace/wp-includes/general-template.php:2986
+[24-Nov-2016 09:31:03 UTC] PHP   5. _WP_Editors::editor_settings() /home/ubuntu/workspace/wp-includes/class-wp-editor.php:293
+[24-Nov-2016 09:31:03 UTC] PHP   6. in_array() /home/ubuntu/workspace/wp-includes/class-wp-editor.php:469
+[24-Nov-2016 09:31:03 UTC] PHP Warning:  implode(): Invalid arguments passed in /home/ubuntu/workspace/wp-includes/class-wp-editor.php on line 553
+[24-Nov-2016 09:31:03 UTC] PHP Stack trace:
+[24-Nov-2016 09:31:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/post-new.php:0
+[24-Nov-2016 09:31:03 UTC] PHP   2. include() /home/ubuntu/workspace/wp-admin/post-new.php:85
+[24-Nov-2016 09:31:03 UTC] PHP   3. wp_editor() /home/ubuntu/workspace/wp-admin/edit-form-advanced.php:625
+[24-Nov-2016 09:31:03 UTC] PHP   4. _WP_Editors::editor() /home/ubuntu/workspace/wp-includes/general-template.php:2986
+[24-Nov-2016 09:31:03 UTC] PHP   5. _WP_Editors::editor_settings() /home/ubuntu/workspace/wp-includes/class-wp-editor.php:293
+[24-Nov-2016 09:31:03 UTC] PHP   6. implode() /home/ubuntu/workspace/wp-includes/class-wp-editor.php:553
+[24-Nov-2016 09:31:03 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/ubuntu/workspace/wp-includes/class-wp-editor.php on line 781
+[24-Nov-2016 09:31:03 UTC] PHP Stack trace:
+[24-Nov-2016 09:31:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/post-new.php:0
+[24-Nov-2016 09:31:03 UTC] PHP   2. include() /home/ubuntu/workspace/wp-admin/post-new.php:86
+[24-Nov-2016 09:31:03 UTC] PHP   3. do_action() /home/ubuntu/workspace/wp-admin/admin-footer.php:93
+[24-Nov-2016 09:31:03 UTC] PHP   4. call_user_func_array:{/home/ubuntu/workspace/wp-includes/plugin.php:524}() /home/ubuntu/workspace/wp-includes/plugin.php:524
+[24-Nov-2016 09:31:03 UTC] PHP   5. _WP_Editors::enqueue_scripts() /home/ubuntu/workspace/wp-includes/plugin.php:524
+[24-Nov-2016 09:31:03 UTC] PHP   6. in_array() /home/ubuntu/workspace/wp-includes/class-wp-editor.php:781
+[24-Nov-2016 09:31:03 UTC] PHP Warning:  implode(): Invalid arguments passed in /home/ubuntu/workspace/wp-includes/class-wp-editor.php on line 1180
+[24-Nov-2016 09:31:03 UTC] PHP Stack trace:
+[24-Nov-2016 09:31:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/post-new.php:0
+[24-Nov-2016 09:31:03 UTC] PHP   2. include() /home/ubuntu/workspace/wp-admin/post-new.php:86
+[24-Nov-2016 09:31:03 UTC] PHP   3. do_action() /home/ubuntu/workspace/wp-admin/admin-footer.php:93
+[24-Nov-2016 09:31:03 UTC] PHP   4. call_user_func_array:{/home/ubuntu/workspace/wp-includes/plugin.php:524}() /home/ubuntu/workspace/wp-includes/plugin.php:524
+[24-Nov-2016 09:31:03 UTC] PHP   5. _WP_Editors::editor_js() /home/ubuntu/workspace/wp-includes/plugin.php:524
+[24-Nov-2016 09:31:03 UTC] PHP   6. implode() /home/ubuntu/workspace/wp-includes/class-wp-editor.php:1180
+[24-Nov-2016 09:31:03 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/ubuntu/workspace/wp-includes/class-wp-editor.php on line 1297
+[24-Nov-2016 09:31:03 UTC] PHP Stack trace:
+[24-Nov-2016 09:31:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/post-new.php:0
+[24-Nov-2016 09:31:03 UTC] PHP   2. include() /home/ubuntu/workspace/wp-admin/post-new.php:86
+[24-Nov-2016 09:31:03 UTC] PHP   3. do_action() /home/ubuntu/workspace/wp-admin/admin-footer.php:93
+[24-Nov-2016 09:31:03 UTC] PHP   4. call_user_func_array:{/home/ubuntu/workspace/wp-includes/plugin.php:524}() /home/ubuntu/workspace/wp-includes/plugin.php:524
+[24-Nov-2016 09:31:03 UTC] PHP   5. _WP_Editors::editor_js() /home/ubuntu/workspace/wp-includes/plugin.php:524
+[24-Nov-2016 09:31:03 UTC] PHP   6. in_array() /home/ubuntu/workspace/wp-includes/class-wp-editor.php:1297
+[25-Nov-2016 08:39:13 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/ubuntu/workspace/wp-content/plugins/codemirror-file-editor/codemirror-file-editor.php on line 216
+[25-Nov-2016 08:39:13 UTC] PHP Stack trace:
+[25-Nov-2016 08:39:13 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/admin-ajax.php:0
+[25-Nov-2016 08:39:13 UTC] PHP   2. require_once() /home/ubuntu/workspace/wp-admin/admin-ajax.php:22
+[25-Nov-2016 08:39:13 UTC] PHP   3. require_once() /home/ubuntu/workspace/wp-load.php:39
+[25-Nov-2016 08:39:13 UTC] PHP   4. require_once() /home/ubuntu/workspace/wp-config.php:92
+[25-Nov-2016 08:40:13 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/ubuntu/workspace/wp-content/plugins/codemirror-file-editor/codemirror-file-editor.php on line 216
+[25-Nov-2016 08:40:13 UTC] PHP Stack trace:
+[25-Nov-2016 08:40:13 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/admin-ajax.php:0
+[25-Nov-2016 08:40:13 UTC] PHP   2. require_once() /home/ubuntu/workspace/wp-admin/admin-ajax.php:22
+[25-Nov-2016 08:40:13 UTC] PHP   3. require_once() /home/ubuntu/workspace/wp-load.php:39
+[25-Nov-2016 08:40:13 UTC] PHP   4. require_once() /home/ubuntu/workspace/wp-config.php:92
+[25-Nov-2016 08:42:13 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/ubuntu/workspace/wp-content/plugins/codemirror-file-editor/codemirror-file-editor.php on line 216
+[25-Nov-2016 08:42:13 UTC] PHP Stack trace:
+[25-Nov-2016 08:42:13 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/admin-ajax.php:0
+[25-Nov-2016 08:42:13 UTC] PHP   2. require_once() /home/ubuntu/workspace/wp-admin/admin-ajax.php:22
+[25-Nov-2016 08:42:13 UTC] PHP   3. require_once() /home/ubuntu/workspace/wp-load.php:39
+[25-Nov-2016 08:42:13 UTC] PHP   4. require_once() /home/ubuntu/workspace/wp-config.php:92
+[25-Nov-2016 08:44:13 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/ubuntu/workspace/wp-content/plugins/codemirror-file-editor/codemirror-file-editor.php on line 216
+[25-Nov-2016 08:44:13 UTC] PHP Stack trace:
+[25-Nov-2016 08:44:13 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/admin-ajax.php:0
+[25-Nov-2016 08:44:13 UTC] PHP   2. require_once() /home/ubuntu/workspace/wp-admin/admin-ajax.php:22
+[25-Nov-2016 08:44:13 UTC] PHP   3. require_once() /home/ubuntu/workspace/wp-load.php:39
+[25-Nov-2016 08:44:13 UTC] PHP   4. require_once() /home/ubuntu/workspace/wp-config.php:92
+[25-Nov-2016 08:46:13 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/ubuntu/workspace/wp-content/plugins/codemirror-file-editor/codemirror-file-editor.php on line 216
+[25-Nov-2016 08:46:13 UTC] PHP Stack trace:
+[25-Nov-2016 08:46:13 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/admin-ajax.php:0
+[25-Nov-2016 08:46:13 UTC] PHP   2. require_once() /home/ubuntu/workspace/wp-admin/admin-ajax.php:22
+[25-Nov-2016 08:46:13 UTC] PHP   3. require_once() /home/ubuntu/workspace/wp-load.php:39
+[25-Nov-2016 08:46:13 UTC] PHP   4. require_once() /home/ubuntu/workspace/wp-config.php:92
+[25-Nov-2016 08:48:13 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/ubuntu/workspace/wp-content/plugins/codemirror-file-editor/codemirror-file-editor.php on line 216
+[25-Nov-2016 08:48:13 UTC] PHP Stack trace:
+[25-Nov-2016 08:48:13 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/admin-ajax.php:0
+[25-Nov-2016 08:48:13 UTC] PHP   2. require_once() /home/ubuntu/workspace/wp-admin/admin-ajax.php:22
+[25-Nov-2016 08:48:13 UTC] PHP   3. require_once() /home/ubuntu/workspace/wp-load.php:39
+[25-Nov-2016 08:48:13 UTC] PHP   4. require_once() /home/ubuntu/workspace/wp-config.php:92
+[29-Nov-2016 03:51:06 UTC] PHP Parse error:  syntax error, unexpected '=', expecting ')' in /home/ubuntu/workspace/wp-content/themes/tinydocuments/pak/cht-functions.php on line 37
+[29-Nov-2016 03:51:06 UTC] PHP Stack trace:
+[29-Nov-2016 03:51:06 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/admin-ajax.php:0
+[29-Nov-2016 03:51:06 UTC] PHP   2. require_once() /home/ubuntu/workspace/wp-admin/admin-ajax.php:22
+[29-Nov-2016 03:51:06 UTC] PHP   3. require_once() /home/ubuntu/workspace/wp-load.php:39
+[29-Nov-2016 03:51:06 UTC] PHP   4. require_once() /home/ubuntu/workspace/wp-config.php:92
+[29-Nov-2016 03:51:06 UTC] PHP   5. include() /home/ubuntu/workspace/wp-settings.php:387
+[29-Nov-2016 03:52:17 UTC] PHP Parse error:  syntax error, unexpected '=', expecting ')' in /home/ubuntu/workspace/wp-content/themes/tinydocuments/pak/cht-functions.php on line 37
+[29-Nov-2016 03:52:17 UTC] PHP Stack trace:
+[29-Nov-2016 03:52:17 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/admin-ajax.php:0
+[29-Nov-2016 03:52:17 UTC] PHP   2. require_once() /home/ubuntu/workspace/wp-admin/admin-ajax.php:22
+[29-Nov-2016 03:52:17 UTC] PHP   3. require_once() /home/ubuntu/workspace/wp-load.php:39
+[29-Nov-2016 03:52:17 UTC] PHP   4. require_once() /home/ubuntu/workspace/wp-config.php:92
+[29-Nov-2016 03:52:17 UTC] PHP   5. include() /home/ubuntu/workspace/wp-settings.php:387
+[29-Nov-2016 03:53:07 UTC] PHP Parse error:  syntax error, unexpected '=', expecting ')' in /home/ubuntu/workspace/wp-content/themes/tinydocuments/pak/cht-functions.php on line 37
+[29-Nov-2016 03:53:07 UTC] PHP Stack trace:
+[29-Nov-2016 03:53:07 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/admin-ajax.php:0
+[29-Nov-2016 03:53:07 UTC] PHP   2. require_once() /home/ubuntu/workspace/wp-admin/admin-ajax.php:22
+[29-Nov-2016 03:53:07 UTC] PHP   3. require_once() /home/ubuntu/workspace/wp-load.php:39
+[29-Nov-2016 03:53:07 UTC] PHP   4. require_once() /home/ubuntu/workspace/wp-config.php:92
+[29-Nov-2016 03:53:07 UTC] PHP   5. include() /home/ubuntu/workspace/wp-settings.php:387
+[29-Nov-2016 03:54:19 UTC] PHP Parse error:  syntax error, unexpected '=', expecting ')' in /home/ubuntu/workspace/wp-content/themes/tinydocuments/pak/cht-functions.php on line 37
+[29-Nov-2016 03:54:19 UTC] PHP Stack trace:
+[29-Nov-2016 03:54:19 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/admin-ajax.php:0
+[29-Nov-2016 03:54:19 UTC] PHP   2. require_once() /home/ubuntu/workspace/wp-admin/admin-ajax.php:22
+[29-Nov-2016 03:54:19 UTC] PHP   3. require_once() /home/ubuntu/workspace/wp-load.php:39
+[29-Nov-2016 03:54:19 UTC] PHP   4. require_once() /home/ubuntu/workspace/wp-config.php:92
+[29-Nov-2016 03:54:19 UTC] PHP   5. include() /home/ubuntu/workspace/wp-settings.php:387
+[29-Nov-2016 03:55:07 UTC] PHP Parse error:  syntax error, unexpected '=', expecting ')' in /home/ubuntu/workspace/wp-content/themes/tinydocuments/pak/cht-functions.php on line 37
+[29-Nov-2016 03:55:07 UTC] PHP Stack trace:
+[29-Nov-2016 03:55:07 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/admin-ajax.php:0
+[29-Nov-2016 03:55:07 UTC] PHP   2. require_once() /home/ubuntu/workspace/wp-admin/admin-ajax.php:22
+[29-Nov-2016 03:55:07 UTC] PHP   3. require_once() /home/ubuntu/workspace/wp-load.php:39
+[29-Nov-2016 03:55:07 UTC] PHP   4. require_once() /home/ubuntu/workspace/wp-config.php:92
+[29-Nov-2016 03:55:07 UTC] PHP   5. include() /home/ubuntu/workspace/wp-settings.php:387
+[29-Nov-2016 03:56:19 UTC] PHP Parse error:  syntax error, unexpected '=', expecting ')' in /home/ubuntu/workspace/wp-content/themes/tinydocuments/pak/cht-functions.php on line 37
+[29-Nov-2016 03:56:19 UTC] PHP Stack trace:
+[29-Nov-2016 03:56:19 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/admin-ajax.php:0
+[29-Nov-2016 03:56:19 UTC] PHP   2. require_once() /home/ubuntu/workspace/wp-admin/admin-ajax.php:22
+[29-Nov-2016 03:56:19 UTC] PHP   3. require_once() /home/ubuntu/workspace/wp-load.php:39
+[29-Nov-2016 03:56:19 UTC] PHP   4. require_once() /home/ubuntu/workspace/wp-config.php:92
+[29-Nov-2016 03:56:19 UTC] PHP   5. include() /home/ubuntu/workspace/wp-settings.php:387
+[29-Nov-2016 03:57:07 UTC] PHP Parse error:  syntax error, unexpected '=', expecting ')' in /home/ubuntu/workspace/wp-content/themes/tinydocuments/pak/cht-functions.php on line 35
+[29-Nov-2016 03:57:07 UTC] PHP Stack trace:
+[29-Nov-2016 03:57:07 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/admin-ajax.php:0
+[29-Nov-2016 03:57:07 UTC] PHP   2. require_once() /home/ubuntu/workspace/wp-admin/admin-ajax.php:22
+[29-Nov-2016 03:57:07 UTC] PHP   3. require_once() /home/ubuntu/workspace/wp-load.php:39
+[29-Nov-2016 03:57:07 UTC] PHP   4. require_once() /home/ubuntu/workspace/wp-config.php:92
+[29-Nov-2016 03:57:07 UTC] PHP   5. include() /home/ubuntu/workspace/wp-settings.php:387
+[29-Nov-2016 03:57:20 UTC] PHP Parse error:  syntax error, unexpected '=', expecting ')' in /home/ubuntu/workspace/wp-content/themes/tinydocuments/pak/cht-functions.php on line 35
+[29-Nov-2016 03:57:20 UTC] PHP Stack trace:
+[29-Nov-2016 03:57:20 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/admin-ajax.php:0
+[29-Nov-2016 03:57:20 UTC] PHP   2. require_once() /home/ubuntu/workspace/wp-admin/admin-ajax.php:22
+[29-Nov-2016 03:57:20 UTC] PHP   3. require_once() /home/ubuntu/workspace/wp-load.php:39
+[29-Nov-2016 03:57:20 UTC] PHP   4. require_once() /home/ubuntu/workspace/wp-config.php:92
+[29-Nov-2016 03:57:20 UTC] PHP   5. include() /home/ubuntu/workspace/wp-settings.php:387
+[29-Nov-2016 03:58:21 UTC] PHP Parse error:  syntax error, unexpected '=', expecting ')' in /home/ubuntu/workspace/wp-content/themes/tinydocuments/pak/cht-functions.php on line 35
+[29-Nov-2016 03:58:21 UTC] PHP Stack trace:
+[29-Nov-2016 03:58:21 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/admin-ajax.php:0
+[29-Nov-2016 03:58:21 UTC] PHP   2. require_once() /home/ubuntu/workspace/wp-admin/admin-ajax.php:22
+[29-Nov-2016 03:58:21 UTC] PHP   3. require_once() /home/ubuntu/workspace/wp-load.php:39
+[29-Nov-2016 03:58:21 UTC] PHP   4. require_once() /home/ubuntu/workspace/wp-config.php:92
+[29-Nov-2016 03:58:21 UTC] PHP   5. include() /home/ubuntu/workspace/wp-settings.php:387
+[29-Nov-2016 03:59:07 UTC] PHP Parse error:  syntax error, unexpected '=', expecting ')' in /home/ubuntu/workspace/wp-content/themes/tinydocuments/pak/cht-functions.php on line 35
+[29-Nov-2016 03:59:07 UTC] PHP Stack trace:
+[29-Nov-2016 03:59:07 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/admin-ajax.php:0
+[29-Nov-2016 03:59:07 UTC] PHP   2. require_once() /home/ubuntu/workspace/wp-admin/admin-ajax.php:22
+[29-Nov-2016 03:59:07 UTC] PHP   3. require_once() /home/ubuntu/workspace/wp-load.php:39
+[29-Nov-2016 03:59:07 UTC] PHP   4. require_once() /home/ubuntu/workspace/wp-config.php:92
+[29-Nov-2016 03:59:07 UTC] PHP   5. include() /home/ubuntu/workspace/wp-settings.php:387

@@ -1,0 +1,93 @@
+*** Klasik Framework Changelog ***
+
+2016.03.24 - Version 1.5.4
+  * css/noscript.css - removed 
+  * includes/theme-styles.php - fix css directory 
+  * includes/header-function.php - fix untrusted data escaped 
+
+2016.03.21- Version 1.5.3
+  * style.css - added Text Domain
+  * includes/widgets/klasik-text-widget.php - removed
+  * includes/theme-widgets.php - removed klasik text widget
+  * includes/theme-styles.php - removed noscript.css
+  * css/noscript.css - removed 
+  * js/hoverIntent.js - removed 
+  * includes/theme-scripts.php - removed hoverIntent.js
+  * site-header.php - remove not used code
+  * js/fixedmenu.js - added fixedmenu.js
+  * includes/theme-scripts.php - added fixedmenu.js
+  * includes/footer-function.php - removed all jQuery scripts
+  * includes/child-plugins.php - bug fixed for translation
+  * includes/plugin-activation/class-tgm-plugin-activation.php - bug fixed for translation
+  * includes/theme-functions.php - added sanitization for textarea options framework
+  * options.php - added prefixed
+  * includes/theme-admin.php - added prefixed
+  * includes/theme-init.php - removed editor-style, custom-header and custom-background supports
+
+
+2016.02.10 - Version 1.5.2 
+   * includes/theme-scripts.php - change name the scripts in enqueue and added prefix in custom jquery
+
+2016.02.06 - Version 1.5.1
+   * includes/widgets/klasik-latestnews-widget.php - bug fixed notice undefined index
+   * includes/widgets/klasik-portfolio-widget.php - bug fixed notice undefined index
+   * includes/widgets/klasik-features-widget.php - bug fixed notice undefined index
+   * includes/widgets/klasik-testimonial-widget.php - bug fixed notice undefined index
+   * includes/widgets/klasik-team-widget.php - bug fixed notice undefined index
+   * includes/widgets/klasik-action-widget.php - bug fixed notice undefined index
+   * includes/widgets/klasik-imagecarousel-widget.php - bug fixed notice undefined index
+   * includes/widgets/klasik-magazine-widget.php - bug fixed notice undefined index and variable
+   * includes/widgets/klasik-text-widget.php - bug fixed notice undefined index
+
+2016.02.04 - Version 1.5
+   * includes/widgets/klasik-latestnews-widget.php - added sanitize content
+   * includes/widgets/klasik-portfolio-widget.php - added sanitize content
+   * includes/widgets/klasik-features-widget.php - added sanitize content
+   * includes/widgets/klasik-testimonial-widget.php - added sanitize content
+   * includes/widgets/klasik-team-widget.php - added sanitize content
+   * includes/widgets/klasik-action-widget.php - added sanitize content
+   * includes/widgets/klasik-imagecarousel-widget.php - added sanitize content
+   * includes/widgets/klasik-magazine-widget.php - added sanitize content
+   * includes/widgets/klasik-text-widget.php - added sanitize content
+   * includes/theme-functions.php - removed function nav_page_fallback
+   * includes/theme-init.php - added prefix the thumbnail names for custom image size
+   * includes/theme-admin.php - added prefix in get_rwmb_meta
+   * includes/header-function.php - removed the favicon default
+
+
+2016.01.27 - Version 1.4
+  * style.css - change theme url
+  * includes/theme-functions.php - removed function wordpress color picker
+  * includes/theme-functions.php - removed code show_future_posts
+  * includes/theme-functions.php - removed code klasik_run_shortcode
+  * includes/theme-functions.php - removed code klasik_get_configval, klasik_widget_count, klasik_get_imgsize and klasik_get_customstyle
+  * includes/child-plugins.php - change require plugins to recommend
+  * includes/theme-init.php - removed code add_theme_support
+  * includes/theme-scripts.php - removed jquery easing
+  * js/jquery.easing.1.3.js - removed 
+  * css/font-awesome.min.css - change to the original files
+  * js/jquery.flexslider-min.js - change to the original files 
+  * js/jquery.prettyPhoto.js - change to the original files
+  * js/retina-1.1.0.min.js - change to the original files
+  * js/tinynav.min.js - change to the original files
+  * single.php - removed function hidden on wp_link_pages if the meta is disabled
+  * options.php - removed rtl and favicon
+
+2016.01.14 - Version 1.3
+  * includes/widgets/klasik-magazine-widget.php - added klasik magazine widget
+  * includes/theme-widgets.php - added klasik magazine widget
+  * css/general.css - added css for klasik magazine widget
+  * css/layout.css - added responsive style for klasik magazine widget
+
+
+2016.01.07 - Version 1.2
+  * includes/child-plugins.php - added plugins activation
+
+
+2015.12.11 - Version 1.1
+  * includes/widgets/klasik-latestnews-widget.php - added function month numeric, with leading zeros 
+  * layout-header.php - bug fixed in search results if page use full width layout 
+  * layout-footer.php - bug fixed in search results if page use full width layout 
+
+2015.09.02 - Version 1.0
+  * First Release!

@@ -1,0 +1,1037 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Klasik\n"
+"POT-Creation-Date: 2016-03-21 10:05+0700\n"
+"PO-Revision-Date: 2016-03-21 10:06+0700\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.7\n"
+"X-Poedit-KeywordsList: __;_e\n"
+
+#: 404.php:12
+msgid ""
+"Apologies, but the page you requested could not be found. Perhaps searching "
+"will help."
+msgstr ""
+
+#: attachment.php:44 content-audio.php:90 content-gallery.php:92
+#: content-image.php:107 content-status.php:21 content-video.php:94
+#: content.php:76 includes/widgets/klasik-magazine-widget.php:126
+msgid "Read More"
+msgstr ""
+
+#: attachment.php:45 content-page.php:17
+msgid "Pages:"
+msgstr ""
+
+#: attachment.php:59 content-page.php:25 content-status.php:30
+#: includes/theme-function.php:121
+msgid "Edit"
+msgstr ""
+
+#: author.php:30 single.php:76
+#, php-format
+msgid "About %s"
+msgstr ""
+
+#: comments.php:18
+msgid ""
+"This post is password protected. Enter the password to view any comments."
+msgstr ""
+
+#: comments.php:41 comments.php:64
+msgid "<span class=\"meta-nav\">&larr;</span> Older Comments"
+msgstr ""
+
+#: comments.php:42 comments.php:65
+msgid "Newer Comments <span class=\"meta-nav\">&rarr;</span>"
+msgstr ""
+
+#: comments.php:76
+msgid "Comments are closed."
+msgstr ""
+
+#: comments.php:84
+msgid "Name"
+msgstr ""
+
+#: comments.php:87
+msgid "Email"
+msgstr ""
+
+#: comments.php:90
+msgid "Website"
+msgstr ""
+
+#: comments.php:93
+msgid "Post a Comment"
+msgstr ""
+
+#: comments.php:94
+msgid "Submit"
+msgstr ""
+
+#: content-audio.php:52 content-gallery.php:53 content-image.php:66
+#: content-video.php:56 content.php:28 header.php:124
+msgid "by"
+msgstr ""
+
+#: content-audio.php:55 content-gallery.php:56 content-image.php:69
+#: content-video.php:59 content.php:31 header.php:151
+msgid "in"
+msgstr ""
+
+#: content-audio.php:71 content-gallery.php:72 content-image.php:86
+#: content-video.php:75 content.php:47 header.php:141
+#: includes/widgets/klasik-latestnews-widget.php:245
+msgid "No Comments"
+msgstr ""
+
+#: content-audio.php:72 content-gallery.php:73 content-image.php:87
+#: content-video.php:76 content.php:48 header.php:142
+#: includes/widgets/klasik-latestnews-widget.php:246
+msgid "1 Comment"
+msgstr ""
+
+#: content-audio.php:73 content-gallery.php:74 content-image.php:88
+#: content-video.php:77 content.php:49 header.php:143
+#: includes/widgets/klasik-latestnews-widget.php:247
+msgid "% Comments"
+msgstr ""
+
+#: content-audio.php:75 content-gallery.php:76 content-image.php:90
+#: content-video.php:79 content.php:51 header.php:145
+#: includes/widgets/klasik-latestnews-widget.php:249
+msgid "Comments Closed"
+msgstr ""
+
+#: content-none.php:14
+msgid "Nothing Found"
+msgstr ""
+
+#: content-none.php:18
+msgid ""
+"Apologies, but no results were found. Perhaps searching will help find a "
+"related post."
+msgstr ""
+
+#: content-status.php:15
+#, php-format
+msgid "Permalink to %s"
+msgstr ""
+
+#: content-status.php:27
+msgid "Leave a reply"
+msgstr ""
+
+#: content-status.php:27
+msgid "1 Reply"
+msgstr ""
+
+#: content-status.php:27
+msgid "% Replies"
+msgstr ""
+
+#: content.php:67
+msgid "Pages : "
+msgstr ""
+
+#: loop.php:25
+msgid "Not Found"
+msgstr ""
+
+#: loop.php:27
+msgid ""
+"Apologies, but no results were found for the requested archive. Perhaps "
+"searching will help find a related post."
+msgstr ""
+
+#: loop.php:51
+msgid "<span class=\"meta-nav\">&larr;</span> Previous"
+msgstr ""
+
+#: loop.php:52
+msgid "Next <span class=\"meta-nav\">&rarr;</span>"
+msgstr ""
+
+#: options.php:33
+msgid "Image logo"
+msgstr ""
+
+#: options.php:34
+msgid "Text-based logo"
+msgstr ""
+
+#: options.php:43
+msgid "General"
+msgstr ""
+
+#: options.php:46
+msgid "Disable Responsive"
+msgstr ""
+
+#: options.php:47
+msgid "Select this checkbox to disable responsive feature."
+msgstr ""
+
+#: options.php:53
+msgid "Enable Fixed Menu"
+msgstr ""
+
+#: options.php:54
+msgid "Select this checkbox to enable fixed menu."
+msgstr ""
+
+#: options.php:60
+msgid "Default Layout"
+msgstr ""
+
+#: options.php:61
+msgid "Select the default layout for your theme."
+msgstr ""
+
+#: options.php:72
+msgid "Header"
+msgstr ""
+
+#: options.php:75
+msgid "Logo Type"
+msgstr ""
+
+#: options.php:76
+msgid ""
+"If text-based logo is activated, enter the sitename and tagline in the "
+"fields below."
+msgstr ""
+
+#: options.php:83
+msgid "Site name"
+msgstr ""
+
+#: options.php:84
+msgid "Put your sitename in here."
+msgstr ""
+
+#: options.php:89
+msgid "Tagline"
+msgstr ""
+
+#: options.php:90
+msgid "Put your tagline in here."
+msgstr ""
+
+#: options.php:95
+msgid "Logo Image"
+msgstr ""
+
+#: options.php:96
+msgid "If image logo is activated, upload the logo image."
+msgstr ""
+
+#: options.php:100
+msgid "Footer"
+msgstr ""
+
+#: options.php:104
+msgid "Footer Text"
+msgstr ""
+
+#: options.php:105
+msgid "You can use html tag in here."
+msgstr ""
+
+#: options.php:110
+msgid "Footer Script"
+msgstr ""
+
+#: options.php:111
+msgid "Enter your footer script here."
+msgstr ""
+
+#: options.php:116
+msgid "Custom Styling"
+msgstr ""
+
+#: options.php:125
+msgid "Custom CSS"
+msgstr ""
+
+#: options.php:126
+msgid ""
+"Enter your custom css here. <br/> <strong>You can see the original styles to "
+"override it :</strong>"
+msgstr ""
+
+#: searchform.php:12
+msgid "Enter the keyword..."
+msgstr ""
+
+#: single.php:47
+msgid "Tags :"
+msgstr ""
+
+#: single.php:56
+msgid "<span class=\"meta-nav\"></span> Previous"
+msgstr ""
+
+#: single.php:57
+msgid "Next <span class=\"meta-nav\"></span>"
+msgstr ""
+
+#: single.php:69
+msgid "About Author"
+msgstr ""
+
+#: includes/footer-function.php:18
+msgid "Copyright"
+msgstr ""
+
+#: includes/footer-function.php:22
+msgid " Designed by"
+msgstr ""
+
+#: includes/footer-function.php:22
+msgid "http://www.klasikthemes.com"
+msgstr ""
+
+#: includes/footer-function.php:22
+msgid "Klasik Themes"
+msgstr ""
+
+#: includes/header-function.php:40
+#, php-format
+msgid "Page %s"
+msgstr ""
+
+#: includes/header-function.php:133
+#, php-format
+msgid "Daily Archives <span>%s</span>"
+msgstr ""
+
+#: includes/header-function.php:135
+#, php-format
+msgid "Monthly Archives <span>%s</span>"
+msgstr ""
+
+#: includes/header-function.php:137
+#, php-format
+msgid "Yearly Archives <span>%s</span>"
+msgstr ""
+
+#: includes/header-function.php:139
+#, php-format
+msgid "Author Archives %s"
+msgstr ""
+
+#: includes/header-function.php:142
+#, php-format
+msgid "%s"
+msgstr ""
+
+#: includes/header-function.php:152
+#, php-format
+msgid "Search Results for %s"
+msgstr ""
+
+#: includes/header-function.php:157
+msgid "404 Page"
+msgstr ""
+
+#: includes/header-function.php:163
+msgid "Latest Posts"
+msgstr ""
+
+#: includes/theme-function.php:49
+#: includes/widgets/klasik-latestnews-widget.php:219
+#: includes/widgets/klasik-magazine-widget.php:270
+#: includes/widgets/klasik-portfolio-widget.php:359
+#, php-format
+msgid "View all posts in %s"
+msgstr ""
+
+#: includes/theme-function.php:110
+#, php-format
+msgid "%s "
+msgstr ""
+
+#: includes/theme-function.php:114
+#, php-format
+msgid "%1$s %2$s"
+msgstr ""
+
+#: includes/theme-function.php:119
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: includes/theme-function.php:146
+msgid "Pingback:"
+msgstr ""
+
+#: includes/theme-function.php:146
+msgid "(Edit)"
+msgstr ""
+
+#: includes/theme-function.php:159
+#, php-format
+msgid "Categories: %1$s <br/> Tags: %2$s"
+msgstr ""
+
+#: includes/theme-function.php:161
+#, php-format
+msgid "Categories: %1$s"
+msgstr ""
+
+#: includes/theme-function.php:163
+msgid "Categories:"
+msgstr ""
+
+#: includes/theme-init.php:32
+msgid "Primary Menu"
+msgstr ""
+
+#: includes/theme-metaboxes.php:11
+msgid "General Setting"
+msgstr ""
+
+#: includes/theme-metaboxes.php:15
+msgid "Layout"
+msgstr ""
+
+#: includes/theme-metaboxes.php:17
+msgid ""
+"Select the layout you want on this specific post/page. Overrides default "
+"site layout."
+msgstr ""
+
+#: includes/theme-metaboxes.php:31
+msgid "Font Awesome Icon "
+msgstr ""
+
+#: includes/theme-metaboxes.php:33
+msgid ""
+"Enter your font awesome icon code like <strong>fa-star</strong> to show on "
+"post/page title and features widget"
+msgstr ""
+
+#: includes/theme-metaboxes.php:43
+msgid "Post Setting"
+msgstr ""
+
+#: includes/theme-metaboxes.php:50
+msgid "Feature on Homepage Slider"
+msgstr ""
+
+#: includes/theme-metaboxes.php:52
+msgid "Checked this checkbox if you want to show this post as Homepage Slider."
+msgstr ""
+
+#: includes/theme-metaboxes.php:60
+msgid "Disable Blog Info on Single"
+msgstr ""
+
+#: includes/theme-metaboxes.php:62
+msgid ""
+"Checked this checkbox if you want to disable the meta and author information "
+"on single page (date, author, categories, etc)."
+msgstr ""
+
+#: includes/theme-sidebar.php:5
+msgid "Primary Sidebar"
+msgstr ""
+
+#: includes/theme-sidebar.php:7
+msgid "Located at the left/right side of archives, single and search."
+msgstr ""
+
+#: includes/theme-sidebar.php:20
+msgid "Main Top"
+msgstr ""
+
+#: includes/theme-sidebar.php:22
+msgid "Located at the top of the content top."
+msgstr ""
+
+#: includes/theme-sidebar.php:33
+msgid "Content Top"
+msgstr ""
+
+#: includes/theme-sidebar.php:35
+msgid "Located at the top of the content."
+msgstr ""
+
+#: includes/theme-sidebar.php:45
+msgid "Content Bottom"
+msgstr ""
+
+#: includes/theme-sidebar.php:47
+msgid "Located at the bottom of the content."
+msgstr ""
+
+#: includes/theme-sidebar.php:58
+msgid "Main Bottom"
+msgstr ""
+
+#: includes/theme-sidebar.php:60
+msgid "Located at the bottom of the content bottom."
+msgstr ""
+
+#: includes/theme-sidebar.php:73
+msgid "Footer 1"
+msgstr ""
+
+#: includes/theme-sidebar.php:75
+msgid "Located at the footer column 1."
+msgstr ""
+
+#: includes/theme-sidebar.php:87
+msgid "Footer 2"
+msgstr ""
+
+#: includes/theme-sidebar.php:89
+msgid "Located at the footer column 2."
+msgstr ""
+
+#: includes/theme-sidebar.php:101
+msgid "Footer 3"
+msgstr ""
+
+#: includes/theme-sidebar.php:103
+msgid "Located at the footer column 3."
+msgstr ""
+
+#: includes/theme-sidebar.php:115
+msgid "Footer 4"
+msgstr ""
+
+#: includes/theme-sidebar.php:117
+msgid "Located at the footer column 4."
+msgstr ""
+
+#: includes/theme-sidebar.php:129
+msgid "Footer 5"
+msgstr ""
+
+#: includes/theme-sidebar.php:131
+msgid "Located at the footer column 5."
+msgstr ""
+
+#: includes/theme-sidebar.php:143
+msgid "Footer 6"
+msgstr ""
+
+#: includes/theme-sidebar.php:145
+msgid "Located at the footer column 6."
+msgstr ""
+
+#: includes/plugin-activation/class-tgm-plugin-activation.php:333
+msgid "Install Required Plugins"
+msgstr ""
+
+#: includes/plugin-activation/class-tgm-plugin-activation.php:334
+msgid "Install Plugins"
+msgstr ""
+
+#: includes/plugin-activation/class-tgm-plugin-activation.php:335
+#, php-format
+msgid "Installing Plugin: %s"
+msgstr ""
+
+#: includes/plugin-activation/class-tgm-plugin-activation.php:336
+msgid "Something went wrong with the plugin API."
+msgstr ""
+
+#: includes/plugin-activation/class-tgm-plugin-activation.php:397
+msgid "Return to Required Plugins Installer"
+msgstr ""
+
+#: includes/plugin-activation/class-tgm-plugin-activation.php:398
+msgid "Return to the dashboard"
+msgstr ""
+
+#: includes/plugin-activation/class-tgm-plugin-activation.php:399
+#: includes/plugin-activation/class-tgm-plugin-activation.php:3021
+msgid "Plugin activated successfully."
+msgstr ""
+
+#: includes/plugin-activation/class-tgm-plugin-activation.php:400
+msgid "The following plugin was activated successfully:"
+msgstr ""
+
+#: includes/plugin-activation/class-tgm-plugin-activation.php:401
+#, php-format
+msgid "No action taken. Plugin %1$s was already active."
+msgstr ""
+
+#: includes/plugin-activation/class-tgm-plugin-activation.php:402
+#, php-format
+msgid ""
+"Plugin not activated. A higher version of %s is needed for this theme. "
+"Please update the plugin."
+msgstr ""
+
+#: includes/plugin-activation/class-tgm-plugin-activation.php:403
+#, php-format
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr ""
+
+#: includes/plugin-activation/class-tgm-plugin-activation.php:404
+msgid "Dismiss this notice"
+msgstr ""
+
+#: includes/plugin-activation/class-tgm-plugin-activation.php:405
+msgid "Please contact the administrator of this site for help."
+msgstr ""
+
+#: includes/plugin-activation/class-tgm-plugin-activation.php:2159
+msgid "Required"
+msgstr ""
+
+#: includes/plugin-activation/class-tgm-plugin-activation.php:2162
+msgid "Recommended"
+msgstr ""
+
+#: includes/plugin-activation/class-tgm-plugin-activation.php:2178
+msgid "WordPress Repository"
+msgstr ""
+
+#: includes/plugin-activation/class-tgm-plugin-activation.php:2181
+msgid "External Source"
+msgstr ""
+
+#: includes/plugin-activation/class-tgm-plugin-activation.php:2184
+msgid "Pre-Packaged"
+msgstr ""
+
+#: includes/plugin-activation/class-tgm-plugin-activation.php:2201
+msgid "Not Installed"
+msgstr ""
+
+#: includes/plugin-activation/class-tgm-plugin-activation.php:2205
+msgid "Installed But Not Activated"
+msgstr ""
+
+#: includes/plugin-activation/class-tgm-plugin-activation.php:2207
+msgid "Active"
+msgstr ""
+
+#: includes/plugin-activation/class-tgm-plugin-activation.php:2213
+msgid "Required Update not Available"
+msgstr ""
+
+#: includes/plugin-activation/class-tgm-plugin-activation.php:2216
+msgid "Requires Update"
+msgstr ""
+
+#: includes/plugin-activation/class-tgm-plugin-activation.php:2219
+msgid "Update recommended"
+msgstr ""
+
+#: includes/plugin-activation/class-tgm-plugin-activation.php:2371
+msgid "Installed version:"
+msgstr ""
+
+#: includes/plugin-activation/class-tgm-plugin-activation.php:2379
+msgid "Minimum required version:"
+msgstr ""
+
+#: includes/plugin-activation/class-tgm-plugin-activation.php:2391
+msgid "Available version:"
+msgstr ""
+
+#: includes/plugin-activation/class-tgm-plugin-activation.php:2414
+#, php-format
+msgid ""
+"No plugins to install, update or activate. <a href=\"%1$s\">Return to the "
+"Dashboard</a>"
+msgstr ""
+
+#: includes/plugin-activation/class-tgm-plugin-activation.php:2428
+msgid "Plugin"
+msgstr ""
+
+#: includes/plugin-activation/class-tgm-plugin-activation.php:2429
+msgid "Source"
+msgstr ""
+
+#: includes/plugin-activation/class-tgm-plugin-activation.php:2430
+msgid "Type"
+msgstr ""
+
+#: includes/plugin-activation/class-tgm-plugin-activation.php:2434
+msgid "Version"
+msgstr ""
+
+#: includes/plugin-activation/class-tgm-plugin-activation.php:2435
+msgid "Status"
+msgstr ""
+
+#: includes/plugin-activation/class-tgm-plugin-activation.php:2595
+msgid "Install"
+msgstr ""
+
+#: includes/plugin-activation/class-tgm-plugin-activation.php:2601
+msgid "Update"
+msgstr ""
+
+#: includes/plugin-activation/class-tgm-plugin-activation.php:2604
+msgid "Activate"
+msgstr ""
+
+#: includes/plugin-activation/class-tgm-plugin-activation.php:2635
+msgid "No plugins were selected to be installed. No action taken."
+msgstr ""
+
+#: includes/plugin-activation/class-tgm-plugin-activation.php:2637
+msgid "No plugins were selected to be updated. No action taken."
+msgstr ""
+
+#: includes/plugin-activation/class-tgm-plugin-activation.php:2673
+msgid "No plugins are available to be installed at this time."
+msgstr ""
+
+#: includes/plugin-activation/class-tgm-plugin-activation.php:2675
+msgid "No plugins are available to be updated at this time."
+msgstr ""
+
+#: includes/plugin-activation/class-tgm-plugin-activation.php:3020
+msgid "Plugin activation failed."
+msgstr ""
+
+#: includes/plugin-activation/class-tgm-plugin-activation.php:3354
+#, php-format
+msgid "Updating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: includes/plugin-activation/class-tgm-plugin-activation.php:3356
+#, php-format
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr ""
+
+#: includes/plugin-activation/class-tgm-plugin-activation.php:3357
+#, php-format
+msgid "The installation of %1$s failed."
+msgstr ""
+
+#: includes/plugin-activation/class-tgm-plugin-activation.php:3361
+msgid ""
+"The installation and activation process is starting. This process may take a "
+"while on some hosts, so please be patient."
+msgstr ""
+
+#: includes/plugin-activation/class-tgm-plugin-activation.php:3362
+#, php-format
+msgid "%1$s installed and activated successfully."
+msgstr ""
+
+#: includes/plugin-activation/class-tgm-plugin-activation.php:3363
+msgid "All installations and activations have been completed."
+msgstr ""
+
+#: includes/plugin-activation/class-tgm-plugin-activation.php:3364
+#, php-format
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: includes/plugin-activation/class-tgm-plugin-activation.php:3367
+msgid ""
+"The installation process is starting. This process may take a while on some "
+"hosts, so please be patient."
+msgstr ""
+
+#: includes/plugin-activation/class-tgm-plugin-activation.php:3369
+msgid "All installations have been completed."
+msgstr ""
+
+#: includes/plugin-activation/class-tgm-plugin-activation.php:3370
+#, php-format
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: includes/widgets/klasik-action-widget.php:7
+#: includes/widgets/klasik-action-widget.php:8
+msgid "Klasik CallToAction"
+msgstr ""
+
+#: includes/widgets/klasik-action-widget.php:185
+#: includes/widgets/klasik-features-widget.php:286
+#: includes/widgets/klasik-imagecarousel-widget.php:240
+#: includes/widgets/klasik-latestnews-widget.php:418
+#: includes/widgets/klasik-magazine-widget.php:391
+#: includes/widgets/klasik-portfolio-widget.php:464
+#: includes/widgets/klasik-product-widget.php:189
+#: includes/widgets/klasik-team-widget.php:339
+#: includes/widgets/klasik-testimonial-widget.php:318
+msgid "Title:"
+msgstr ""
+
+#: includes/widgets/klasik-action-widget.php:187
+#: includes/widgets/klasik-features-widget.php:287
+#: includes/widgets/klasik-imagecarousel-widget.php:241
+#: includes/widgets/klasik-latestnews-widget.php:419
+#: includes/widgets/klasik-magazine-widget.php:392
+#: includes/widgets/klasik-portfolio-widget.php:465
+#: includes/widgets/klasik-product-widget.php:191
+#: includes/widgets/klasik-team-widget.php:340
+#: includes/widgets/klasik-testimonial-widget.php:319
+msgid "Text:"
+msgstr ""
+
+#: includes/widgets/klasik-action-widget.php:190
+#: includes/widgets/klasik-features-widget.php:290
+#: includes/widgets/klasik-imagecarousel-widget.php:244
+#: includes/widgets/klasik-latestnews-widget.php:422
+#: includes/widgets/klasik-magazine-widget.php:395
+#: includes/widgets/klasik-portfolio-widget.php:468
+#: includes/widgets/klasik-product-widget.php:195
+#: includes/widgets/klasik-team-widget.php:343
+#: includes/widgets/klasik-testimonial-widget.php:322
+msgid "Automatically add paragraphs"
+msgstr ""
+
+#: includes/widgets/klasik-action-widget.php:192
+msgid "Button1 Text:"
+msgstr ""
+
+#: includes/widgets/klasik-action-widget.php:194
+msgid "Button1 URL:"
+msgstr ""
+
+#: includes/widgets/klasik-action-widget.php:196
+msgid "Button2 Text:"
+msgstr ""
+
+#: includes/widgets/klasik-action-widget.php:198
+msgid "Button2 URL:"
+msgstr ""
+
+#: includes/widgets/klasik-action-widget.php:200
+#: includes/widgets/klasik-features-widget.php:319
+#: includes/widgets/klasik-imagecarousel-widget.php:255
+#: includes/widgets/klasik-latestnews-widget.php:448
+#: includes/widgets/klasik-magazine-widget.php:419
+#: includes/widgets/klasik-portfolio-widget.php:496
+#: includes/widgets/klasik-product-widget.php:207
+#: includes/widgets/klasik-team-widget.php:380
+#: includes/widgets/klasik-testimonial-widget.php:349
+msgid "Custom Class:"
+msgstr ""
+
+#: includes/widgets/klasik-action-widget.php:205
+msgid "Open URL to new window"
+msgstr ""
+
+#: includes/widgets/klasik-features-widget.php:7
+#: includes/widgets/klasik-features-widget.php:8
+msgid "Klasik Features"
+msgstr ""
+
+#: includes/widgets/klasik-features-widget.php:292
+#: includes/widgets/klasik-latestnews-widget.php:424
+#: includes/widgets/klasik-magazine-widget.php:397
+#: includes/widgets/klasik-portfolio-widget.php:472
+#: includes/widgets/klasik-team-widget.php:347
+#: includes/widgets/klasik-testimonial-widget.php:325
+msgid "Category:"
+msgstr ""
+
+#: includes/widgets/klasik-features-widget.php:303
+#: includes/widgets/klasik-latestnews-widget.php:436
+#: includes/widgets/klasik-portfolio-widget.php:484
+#: includes/widgets/klasik-team-widget.php:359
+#: includes/widgets/klasik-testimonial-widget.php:336
+msgid "Number of Columns:"
+msgstr ""
+
+#: includes/widgets/klasik-features-widget.php:310
+#: includes/widgets/klasik-latestnews-widget.php:443
+#: includes/widgets/klasik-magazine-widget.php:415
+#: includes/widgets/klasik-portfolio-widget.php:492
+#: includes/widgets/klasik-product-widget.php:197
+#: includes/widgets/klasik-team-widget.php:368
+#: includes/widgets/klasik-testimonial-widget.php:345
+msgid "Number of Post:"
+msgstr ""
+
+#: includes/widgets/klasik-features-widget.php:312
+#: includes/widgets/klasik-latestnews-widget.php:445
+#: includes/widgets/klasik-magazine-widget.php:417
+#: includes/widgets/klasik-portfolio-widget.php:494
+#: includes/widgets/klasik-team-widget.php:371
+#: includes/widgets/klasik-testimonial-widget.php:347
+msgid "Length of Description Text:"
+msgstr ""
+
+#: includes/widgets/klasik-features-widget.php:317
+#: includes/widgets/klasik-team-widget.php:377
+msgid "Link Post Title"
+msgstr ""
+
+#: includes/widgets/klasik-features-widget.php:327
+#: includes/widgets/klasik-imagecarousel-widget.php:268
+#: includes/widgets/klasik-latestnews-widget.php:463
+#: includes/widgets/klasik-portfolio-widget.php:512
+#: includes/widgets/klasik-team-widget.php:393
+#: includes/widgets/klasik-testimonial-widget.php:360
+msgid "1 Column"
+msgstr ""
+
+#: includes/widgets/klasik-features-widget.php:328
+#: includes/widgets/klasik-imagecarousel-widget.php:269
+#: includes/widgets/klasik-latestnews-widget.php:464
+#: includes/widgets/klasik-portfolio-widget.php:513
+#: includes/widgets/klasik-team-widget.php:394
+#: includes/widgets/klasik-testimonial-widget.php:361
+msgid "2 Column"
+msgstr ""
+
+#: includes/widgets/klasik-features-widget.php:329
+#: includes/widgets/klasik-imagecarousel-widget.php:270
+#: includes/widgets/klasik-latestnews-widget.php:465
+#: includes/widgets/klasik-portfolio-widget.php:514
+#: includes/widgets/klasik-team-widget.php:395
+#: includes/widgets/klasik-testimonial-widget.php:362
+msgid "3 Column"
+msgstr ""
+
+#: includes/widgets/klasik-features-widget.php:330
+#: includes/widgets/klasik-imagecarousel-widget.php:271
+#: includes/widgets/klasik-latestnews-widget.php:466
+#: includes/widgets/klasik-portfolio-widget.php:515
+#: includes/widgets/klasik-team-widget.php:396
+#: includes/widgets/klasik-testimonial-widget.php:363
+msgid "4 Column"
+msgstr ""
+
+#: includes/widgets/klasik-features-widget.php:331
+#: includes/widgets/klasik-imagecarousel-widget.php:272
+#: includes/widgets/klasik-latestnews-widget.php:467
+#: includes/widgets/klasik-portfolio-widget.php:516
+#: includes/widgets/klasik-team-widget.php:397
+#: includes/widgets/klasik-testimonial-widget.php:364
+msgid "5 Column"
+msgstr ""
+
+#: includes/widgets/klasik-features-widget.php:332
+#: includes/widgets/klasik-imagecarousel-widget.php:273
+#: includes/widgets/klasik-latestnews-widget.php:468
+#: includes/widgets/klasik-portfolio-widget.php:517
+#: includes/widgets/klasik-team-widget.php:398
+#: includes/widgets/klasik-testimonial-widget.php:365
+msgid "6 Column"
+msgstr ""
+
+#: includes/widgets/klasik-imagecarousel-widget.php:8
+#: includes/widgets/klasik-imagecarousel-widget.php:9
+msgid "Klasik Image Carousel"
+msgstr ""
+
+#: includes/widgets/klasik-imagecarousel-widget.php:246
+msgid "Media IDs:"
+msgstr ""
+
+#: includes/widgets/klasik-imagecarousel-widget.php:248
+msgid "Images Columns:"
+msgstr ""
+
+#: includes/widgets/klasik-imagecarousel-widget.php:267
+msgid "Default"
+msgstr ""
+
+#: includes/widgets/klasik-latestnews-widget.php:7
+#: includes/widgets/klasik-latestnews-widget.php:8
+msgid "Klasik Latest News"
+msgstr ""
+
+#: includes/widgets/klasik-latestnews-widget.php:268
+msgid "0"
+msgstr ""
+
+#: includes/widgets/klasik-latestnews-widget.php:269
+msgid "1"
+msgstr ""
+
+#: includes/widgets/klasik-latestnews-widget.php:270
+msgid "%"
+msgstr ""
+
+#: includes/widgets/klasik-latestnews-widget.php:272
+msgid "Closed"
+msgstr ""
+
+#: includes/widgets/klasik-latestnews-widget.php:453
+#: includes/widgets/klasik-portfolio-widget.php:502
+msgid "Enable Paging"
+msgstr ""
+
+#: includes/widgets/klasik-magazine-widget.php:7
+#: includes/widgets/klasik-magazine-widget.php:8
+msgid "Klasik Magazine Style"
+msgstr ""
+
+#: includes/widgets/klasik-magazine-widget.php:123
+#: includes/widgets/klasik-magazine-widget.php:138
+msgid "Posted on "
+msgstr ""
+
+#: includes/widgets/klasik-magazine-widget.php:408
+msgid "Columns:"
+msgstr ""
+
+#: includes/widgets/klasik-magazine-widget.php:431
+msgid "One Column"
+msgstr ""
+
+#: includes/widgets/klasik-magazine-widget.php:432
+msgid "Two Column Headline Left"
+msgstr ""
+
+#: includes/widgets/klasik-magazine-widget.php:433
+msgid "Two Column Headline Top"
+msgstr ""
+
+#: includes/widgets/klasik-portfolio-widget.php:7
+#: includes/widgets/klasik-portfolio-widget.php:8
+msgid "Klasik Portfolio"
+msgstr ""
+
+#: includes/widgets/klasik-product-widget.php:7
+#: includes/widgets/klasik-product-widget.php:8
+msgid "Klasik WooCommerce Products"
+msgstr ""
+
+#: includes/widgets/klasik-product-widget.php:199
+msgid "Widget Type:"
+msgstr ""
+
+#: includes/widgets/klasik-product-widget.php:201
+msgid "Latest Product"
+msgstr ""
+
+#: includes/widgets/klasik-product-widget.php:202
+msgid "Featured Product"
+msgstr ""
+
+#: includes/widgets/klasik-product-widget.php:203
+msgid "Best-Selling Product"
+msgstr ""
+
+#: includes/widgets/klasik-product-widget.php:210
+msgid "Show hidden product variations"
+msgstr ""
+
+#: includes/widgets/klasik-product-widget.php:213
+msgid "Hide free products"
+msgstr ""
+
+#: includes/widgets/klasik-team-widget.php:7
+#: includes/widgets/klasik-team-widget.php:8
+msgid "Klasik Our Team"
+msgstr ""
+
+#: includes/widgets/klasik-testimonial-widget.php:7
+#: includes/widgets/klasik-testimonial-widget.php:8
+msgid "Klasik Testimonial"
+msgstr ""

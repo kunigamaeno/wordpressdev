@@ -1,0 +1,30 @@
+[22-Nov-2016 12:47:44 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/ubuntu/workspace/wp-content/themes/cheatsheet/index.php on line 6
+[22-Nov-2016 12:47:44 UTC] PHP Stack trace:
+[22-Nov-2016 12:47:44 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-content/themes/cheatsheet/index.php:0
+[22-Nov-2016 12:47:44 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/ubuntu/workspace/wp-content/themes/cheatsheet/index.php on line 6
+[22-Nov-2016 12:47:44 UTC] PHP Stack trace:
+[22-Nov-2016 12:47:44 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-content/themes/cheatsheet/index.php:0
+[22-Nov-2016 12:47:48 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/ubuntu/workspace/wp-content/themes/cheatsheet/index.php on line 6
+[22-Nov-2016 12:47:48 UTC] PHP Stack trace:
+[22-Nov-2016 12:47:48 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-content/themes/cheatsheet/index.php:0
+[22-Nov-2016 12:48:09 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/ubuntu/workspace/wp-content/themes/cheatsheet/index.php on line 6
+[22-Nov-2016 12:48:09 UTC] PHP Stack trace:
+[22-Nov-2016 12:48:09 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-content/themes/cheatsheet/index.php:0
+[22-Nov-2016 12:48:09 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/ubuntu/workspace/wp-content/themes/cheatsheet/index.php on line 6
+[22-Nov-2016 12:48:09 UTC] PHP Stack trace:
+[22-Nov-2016 12:48:09 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-content/themes/cheatsheet/index.php:0
+[22-Nov-2016 12:48:14 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/ubuntu/workspace/wp-content/themes/cheatsheet/index.php on line 6
+[22-Nov-2016 12:48:14 UTC] PHP Stack trace:
+[22-Nov-2016 12:48:14 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-content/themes/cheatsheet/index.php:0
+[28-Nov-2016 11:53:49 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/ubuntu/workspace/wp-content/themes/tinydocuments/index.php on line 1
+[28-Nov-2016 11:53:49 UTC] PHP Stack trace:
+[28-Nov-2016 11:53:49 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-content/themes/tinydocuments/index.php:0
+[28-Nov-2016 11:54:06 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/ubuntu/workspace/wp-content/themes/tinydocuments/index.php on line 1
+[28-Nov-2016 11:54:06 UTC] PHP Stack trace:
+[28-Nov-2016 11:54:06 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-content/themes/tinydocuments/index.php:0
+[28-Nov-2016 11:55:41 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/ubuntu/workspace/wp-content/themes/tinydocuments/index.php on line 1
+[28-Nov-2016 11:55:41 UTC] PHP Stack trace:
+[28-Nov-2016 11:55:41 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-content/themes/tinydocuments/index.php:0
+[28-Nov-2016 11:55:49 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/ubuntu/workspace/wp-content/themes/tinydocuments/index.php on line 1
+[28-Nov-2016 11:55:49 UTC] PHP Stack trace:
+[28-Nov-2016 11:55:49 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-content/themes/tinydocuments/index.php:0

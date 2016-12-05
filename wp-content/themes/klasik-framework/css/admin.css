@@ -1,0 +1,11 @@
+/* Custom CSS For Admin */
+
+.rwmb-image-select {
+    height: 36px!important;
+    width: 45px!important;
+}
+
+#optionsframework h3 {
+    margin: 0;
+    padding: 10px 15px;
+}

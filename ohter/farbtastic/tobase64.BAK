@@ -1,0 +1,44 @@
+
+<div style="background-color:#55bbff; padding:3px;">
+    <h3>== Image to Base64 ==</h3>
+    <hr>Image:
+    <br><img id="img_src" src="marker.png" />
+    <hr>Base64:
+    <br><textarea id="log" rows="10" cols="40"></textarea>
+</div>
+<!--
+** ATTENTION **
+canvas.toDataURL is affected by cross-domain restrictions (same-origin policy)
+-->
+
+<script>
+//========================================================
+// Demo Code
+//========================================================
+window.onload = function() {
+    // Source Image
+    var img_src = document.getElementById('img_src');
+    // Base64 String
+    document.getElementById('log').value = ImageToBase64(img_src, "image/png");
+}
+
+//========================================================
+// ImageToBase64
+// Params
+//   image     : HTMLImageElement | Source Image Element
+//   mime_type : string | Source Image MIME Type
+// Return
+//   string | Base64 Image Data
+//========================================================
+function ImageToBase64(image_src, mime_type) {
+    // New Canvas
+    var canvas = document.createElement('canvas');
+    canvas.width = image_src.width;
+    canvas.height = image_src.height;
+    // Draw
+    var ctx = canvas.getContext('2d');
+    ctx.drawImage(image_src, 0, 0);
+    // Image Base64
+    return canvas.toDataURL(mime_type);
+}
+</script>
